@@ -1,0 +1,1 @@
+/usr/bin/cc  -W -Wall -Werror -Wno-error=comment -Wextra -pedantic -g   CMakeFiles/prove.dir/prove/main.c.o  -o prove 

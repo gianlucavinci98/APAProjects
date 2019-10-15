@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.15)
+project(APAProjects C)
+
+set(CMAKE_C_STANDARD 99)
+add_executable(0_Prove 0_Prove/main.c)
+add_executable(00_01 00_01/main.c)
+add_executable(00_02 00_02/main.c)
+add_executable(00_03 00_03/main.c)

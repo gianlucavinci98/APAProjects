@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/00_02.dir/00_02/main.c.o  -o 00_02 
