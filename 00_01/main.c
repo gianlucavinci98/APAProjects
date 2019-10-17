@@ -69,6 +69,7 @@ int main() {
                 {
                     stampaVet(vet, st, end);
                     printf("ok");
+                    printf("Prova 2");
                 }
             }
         }
