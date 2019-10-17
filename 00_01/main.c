@@ -68,8 +68,6 @@ int main() {
                 if((end-st)==cmax)
                 {
                     stampaVet(vet, st, end);
-                    printf("ok");
-                    printf("Prova 2");
                 }
             }
         }
