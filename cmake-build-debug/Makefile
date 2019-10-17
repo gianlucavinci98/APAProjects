@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/gianluca/CLionProjects/APAProjects/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/gianluca/CLion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/gianluca/CLion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 00_02
+# Target rules for targets named 00_01
 
 # Build rule for target.
-00_02: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 00_02
-.PHONY : 00_02
+00_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 00_01
+.PHONY : 00_01
 
 # fast build rule for target.
-00_02/fast:
-	$(MAKE) -f CMakeFiles/00_02.dir/build.make CMakeFiles/00_02.dir/build
-.PHONY : 00_02/fast
+00_01/fast:
+	$(MAKE) -f CMakeFiles/00_01.dir/build.make CMakeFiles/00_01.dir/build
+.PHONY : 00_01/fast
 
 #=============================================================================
 # Target rules for targets named 00_03
@@ -150,17 +150,30 @@ depend:
 .PHONY : 0_Prove/fast
 
 #=============================================================================
-# Target rules for targets named 00_01
+# Target rules for targets named 00_02
 
 # Build rule for target.
-00_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 00_01
-.PHONY : 00_01
+00_02: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 00_02
+.PHONY : 00_02
 
 # fast build rule for target.
-00_01/fast:
-	$(MAKE) -f CMakeFiles/00_01.dir/build.make CMakeFiles/00_01.dir/build
-.PHONY : 00_01/fast
+00_02/fast:
+	$(MAKE) -f CMakeFiles/00_02.dir/build.make CMakeFiles/00_02.dir/build
+.PHONY : 00_02/fast
+
+#=============================================================================
+# Target rules for targets named 00_04
+
+# Build rule for target.
+00_04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 00_04
+.PHONY : 00_04
+
+# fast build rule for target.
+00_04/fast:
+	$(MAKE) -f CMakeFiles/00_04.dir/build.make CMakeFiles/00_04.dir/build
+.PHONY : 00_04/fast
 
 00_01/main.o: 00_01/main.c.o
 
@@ -243,6 +256,33 @@ depend:
 	$(MAKE) -f CMakeFiles/00_03.dir/build.make CMakeFiles/00_03.dir/00_03/main.c.s
 .PHONY : 00_03/main.c.s
 
+00_04/main.o: 00_04/main.c.o
+
+.PHONY : 00_04/main.o
+
+# target to build an object file
+00_04/main.c.o:
+	$(MAKE) -f CMakeFiles/00_04.dir/build.make CMakeFiles/00_04.dir/00_04/main.c.o
+.PHONY : 00_04/main.c.o
+
+00_04/main.i: 00_04/main.c.i
+
+.PHONY : 00_04/main.i
+
+# target to preprocess a source file
+00_04/main.c.i:
+	$(MAKE) -f CMakeFiles/00_04.dir/build.make CMakeFiles/00_04.dir/00_04/main.c.i
+.PHONY : 00_04/main.c.i
+
+00_04/main.s: 00_04/main.c.s
+
+.PHONY : 00_04/main.s
+
+# target to generate assembly for a file
+00_04/main.c.s:
+	$(MAKE) -f CMakeFiles/00_04.dir/build.make CMakeFiles/00_04.dir/00_04/main.c.s
+.PHONY : 00_04/main.c.s
+
 0_Prove/main.o: 0_Prove/main.c.o
 
 .PHONY : 0_Prove/main.o
@@ -276,12 +316,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... 00_02"
-	@echo "... edit_cache"
+	@echo "... 00_01"
 	@echo "... 00_03"
 	@echo "... 0_Prove"
-	@echo "... 00_01"
+	@echo "... edit_cache"
+	@echo "... 00_02"
+	@echo "... rebuild_cache"
+	@echo "... 00_04"
 	@echo "... 00_01/main.o"
 	@echo "... 00_01/main.i"
 	@echo "... 00_01/main.s"
@@ -291,6 +332,9 @@ help:
 	@echo "... 00_03/main.o"
 	@echo "... 00_03/main.i"
 	@echo "... 00_03/main.s"
+	@echo "... 00_04/main.o"
+	@echo "... 00_04/main.i"
+	@echo "... 00_04/main.s"
 	@echo "... 0_Prove/main.o"
 	@echo "... 0_Prove/main.i"
 	@echo "... 0_Prove/main.s"
