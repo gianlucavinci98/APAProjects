@@ -29,10 +29,10 @@ int main()
 {
     int nteam,ngior;
     int mat[DIM][DIM];
-    int punti[DIM];
+    int punti[DIM] = {0};
 
     FILE *fp;
-    fp = fopen("prova.txt","r");
+    fp = fopen("camp.txt","r");
     fscanf(fp,"%d %d", &nteam, &ngior);
     for (int i = 0; i < nteam; i++) {
         for (int j = 0; j < ngior; j++) {
@@ -48,9 +48,6 @@ int main()
         printf("\n");
     }
 
-    for (int i = 0; i < nteam; i++) {
-        punti[i]=0;
-    }
     printf("\n");
 
     for (int j = 0; j < ngior; j++) {
