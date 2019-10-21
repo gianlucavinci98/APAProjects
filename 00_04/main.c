@@ -28,6 +28,8 @@ void subMats(int m[][DIM], int nr, int nc, int n)
 {
     int maxSomma = 0;
     int somma = 0;
+    int maxi=0;
+    int maxj=0;
     for (int i = 0; i <=nr-n; i++) {
         for (int j = 0; j <=nc-n; j++) {
             somma = stampaSommaMat(m,i,i+n-1,j,j+n-1);
@@ -35,11 +37,15 @@ void subMats(int m[][DIM], int nr, int nc, int n)
             if(maxSomma<somma)
             {
                 maxSomma = somma;
+                maxi=i;
+                maxj=j;
             }
         }
     }
 
     printf("Somma massima: %d\n", maxSomma);
+    stampaSommaMat(m,maxi,maxi+n-1,maxj,maxj+n-1);
+
 }
 
 int main()
@@ -61,7 +67,7 @@ int main()
         }
     }
 
-    stampaSommaMat(mat,0,nr-1,0,nc);
+    stampaSommaMat(mat,0,nr-1,0,nc-1);
 
     int scelta = 0;
     printf("Formato soottomatrice: ");
