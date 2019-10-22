@@ -176,6 +176,19 @@ depend:
 .PHONY : 01_01/fast
 
 #=============================================================================
+# Target rules for targets named 01_02
+
+# Build rule for target.
+01_02: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 01_02
+.PHONY : 01_02
+
+# fast build rule for target.
+01_02/fast:
+	$(MAKE) -f CMakeFiles/01_02.dir/build.make CMakeFiles/01_02.dir/build
+.PHONY : 01_02/fast
+
+#=============================================================================
 # Target rules for targets named 00_04
 
 # Build rule for target.
@@ -323,6 +336,33 @@ depend:
 	$(MAKE) -f CMakeFiles/01_01.dir/build.make CMakeFiles/01_01.dir/01_01/main.c.s
 .PHONY : 01_01/main.c.s
 
+01_02/main.o: 01_02/main.c.o
+
+.PHONY : 01_02/main.o
+
+# target to build an object file
+01_02/main.c.o:
+	$(MAKE) -f CMakeFiles/01_02.dir/build.make CMakeFiles/01_02.dir/01_02/main.c.o
+.PHONY : 01_02/main.c.o
+
+01_02/main.i: 01_02/main.c.i
+
+.PHONY : 01_02/main.i
+
+# target to preprocess a source file
+01_02/main.c.i:
+	$(MAKE) -f CMakeFiles/01_02.dir/build.make CMakeFiles/01_02.dir/01_02/main.c.i
+.PHONY : 01_02/main.c.i
+
+01_02/main.s: 01_02/main.c.s
+
+.PHONY : 01_02/main.s
+
+# target to generate assembly for a file
+01_02/main.c.s:
+	$(MAKE) -f CMakeFiles/01_02.dir/build.make CMakeFiles/01_02.dir/01_02/main.c.s
+.PHONY : 01_02/main.c.s
+
 0_Prove/main.o: 0_Prove/main.c.o
 
 .PHONY : 0_Prove/main.o
@@ -363,6 +403,7 @@ help:
 	@echo "... 00_01"
 	@echo "... 01_01"
 	@echo "... rebuild_cache"
+	@echo "... 01_02"
 	@echo "... 00_04"
 	@echo "... 00_01/main.o"
 	@echo "... 00_01/main.i"
@@ -379,6 +420,9 @@ help:
 	@echo "... 01_01/main.o"
 	@echo "... 01_01/main.i"
 	@echo "... 01_01/main.s"
+	@echo "... 01_02/main.o"
+	@echo "... 01_02/main.i"
+	@echo "... 01_02/main.s"
 	@echo "... 0_Prove/main.o"
 	@echo "... 0_Prove/main.i"
 	@echo "... 0_Prove/main.s"

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    char riga[] = "IO\n ciao\ncacca";
 
-    printf("Hello");
     return 0;
 }
