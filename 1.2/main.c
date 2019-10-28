@@ -35,7 +35,7 @@ int conforntaParola(char str[], int pos, Entry diz[], int nd)
         ok=1;
         while (ok==1 && c<strlen(diz[j].word)) //verifica corrispondenza lettera per lettera della parola del dizionario
         {
-            if (str[pos+c] != diz[j].word[c]) //se termina corrispondenza annulla flag e passa a prossima parola
+            if (str[pos+c] != diz[j].word[c]) //se termina corrispondenza, annulla flag e passa a prossima parola
             {
                 ok=0;
             }
