@@ -30,25 +30,27 @@ void printMat(int m[][MAX], int nr, int nc)
         printf("\n");
     }
 }
-void verificaRegione(int m[][MAX], int nr, int nc, int r, int c, int *h, int *l)
+
+int verificaRegione(int m[][MAX], int nr, int nc, int r, int c, int *h, int *l)
 {
     int tmp = c;
 
-    c++;
-    while(m[r][c]==1 && c<nc)
+    if (m[r][c]==1)
     {
-        //l++;
-        *l=*l+1;
-        c++;
+        while(m[r][c]==1 && c<nc)
+        {
+            *l=*l+1;
+            c++;
+        }
+        c=tmp;
+        while (m[r][c]==1 && r<nr)
+        {
+            *h=*h+1;
+            r++;
+        }
+        return 1;
     }
-    c=tmp;
-    r++;
-    while (m[r][c]==1 && r<nr)
-    {
-        //h++;
-        *h=*h+1;
-        r++;
-    }
+    else return 0;
 }
 
 int main()
@@ -64,12 +66,9 @@ int main()
 
     for (int i = 0; i < nr; i++) {
         for (int j = 0; j < nc; j++) {
-            if (mat[i][j]==1) //se contiene 1 parte la scansione del rettangolo
+            int h=0, l=0;
+            if (verificaRegione(mat, nr, nc, i, j, &h, &l))
             {
-                int h=1, l=1;
-                //Ris ris =
-                verificaRegione(mat, nr, nc, i, j, &h, &l);
-                //Ricerca dei vari massimi
                 if(h>maxh.h)
                 {
                     maxh.h=h;
