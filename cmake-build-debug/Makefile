@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 3.2
+
+# Build rule for target.
+3.2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 3.2
+.PHONY : 3.2
+
+# fast build rule for target.
+3.2/fast:
+	$(MAKE) -f CMakeFiles/3.2.dir/build.make CMakeFiles/3.2.dir/build
+.PHONY : 3.2/fast
+
+#=============================================================================
+# Target rules for targets named 3.1
+
+# Build rule for target.
+3.1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 3.1
+.PHONY : 3.1
+
+# fast build rule for target.
+3.1/fast:
+	$(MAKE) -f CMakeFiles/3.1.dir/build.make CMakeFiles/3.1.dir/build
+.PHONY : 3.1/fast
+
+#=============================================================================
 # Target rules for targets named 2.3
 
 # Build rule for target.
@@ -510,6 +536,60 @@ depend:
 	$(MAKE) -f CMakeFiles/2.3.dir/build.make CMakeFiles/2.3.dir/2.3/main.c.s
 .PHONY : 2.3/main.c.s
 
+3.1/main.o: 3.1/main.c.o
+
+.PHONY : 3.1/main.o
+
+# target to build an object file
+3.1/main.c.o:
+	$(MAKE) -f CMakeFiles/3.1.dir/build.make CMakeFiles/3.1.dir/3.1/main.c.o
+.PHONY : 3.1/main.c.o
+
+3.1/main.i: 3.1/main.c.i
+
+.PHONY : 3.1/main.i
+
+# target to preprocess a source file
+3.1/main.c.i:
+	$(MAKE) -f CMakeFiles/3.1.dir/build.make CMakeFiles/3.1.dir/3.1/main.c.i
+.PHONY : 3.1/main.c.i
+
+3.1/main.s: 3.1/main.c.s
+
+.PHONY : 3.1/main.s
+
+# target to generate assembly for a file
+3.1/main.c.s:
+	$(MAKE) -f CMakeFiles/3.1.dir/build.make CMakeFiles/3.1.dir/3.1/main.c.s
+.PHONY : 3.1/main.c.s
+
+3.2/main.o: 3.2/main.c.o
+
+.PHONY : 3.2/main.o
+
+# target to build an object file
+3.2/main.c.o:
+	$(MAKE) -f CMakeFiles/3.2.dir/build.make CMakeFiles/3.2.dir/3.2/main.c.o
+.PHONY : 3.2/main.c.o
+
+3.2/main.i: 3.2/main.c.i
+
+.PHONY : 3.2/main.i
+
+# target to preprocess a source file
+3.2/main.c.i:
+	$(MAKE) -f CMakeFiles/3.2.dir/build.make CMakeFiles/3.2.dir/3.2/main.c.i
+.PHONY : 3.2/main.c.i
+
+3.2/main.s: 3.2/main.c.s
+
+.PHONY : 3.2/main.s
+
+# target to generate assembly for a file
+3.2/main.c.s:
+	$(MAKE) -f CMakeFiles/3.2.dir/build.make CMakeFiles/3.2.dir/3.2/main.c.s
+.PHONY : 3.2/main.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -517,6 +597,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... 3.2"
+	@echo "... 3.1"
 	@echo "... 2.3"
 	@echo "... rebuild_cache"
 	@echo "... 1.3"
@@ -558,6 +640,12 @@ help:
 	@echo "... 2.3/main.o"
 	@echo "... 2.3/main.i"
 	@echo "... 2.3/main.s"
+	@echo "... 3.1/main.o"
+	@echo "... 3.1/main.i"
+	@echo "... 3.1/main.s"
+	@echo "... 3.2/main.o"
+	@echo "... 3.2/main.i"
+	@echo "... 3.2/main.s"
 .PHONY : help
 
 
