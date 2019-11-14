@@ -85,7 +85,7 @@ int main()
     start=clock();
     selection(vet);
     end=clock(),
-    stampa(vet, DIM);
+            stampa(vet, DIM);
     tempo=(double)(end-start)/CLOCKS_PER_SEC;
     printf("Tempo: %f ms\n", tempo*1000);
 

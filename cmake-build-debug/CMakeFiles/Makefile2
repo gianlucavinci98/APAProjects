@@ -53,34 +53,40 @@ CMAKE_BINARY_DIR = /home/gianluca/CLionProjects/APAProjects/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/3.2.dir/all
-all: CMakeFiles/3.1.dir/all
-all: CMakeFiles/2.3.dir/all
-all: CMakeFiles/1.3.dir/all
-all: CMakeFiles/1.2.dir/all
-all: CMakeFiles/0.0_Prove.dir/all
-all: CMakeFiles/0.4.dir/all
-all: CMakeFiles/0.3.dir/all
-all: CMakeFiles/2.1.dir/all
-all: CMakeFiles/0.1.dir/all
-all: CMakeFiles/0.2.dir/all
 all: CMakeFiles/1.1.dir/all
+all: CMakeFiles/0.2.dir/all
+all: CMakeFiles/0.1.dir/all
+all: CMakeFiles/2.1.dir/all
+all: CMakeFiles/0.4.dir/all
+all: CMakeFiles/0.0_Prove.dir/all
+all: CMakeFiles/1.2.dir/all
+all: CMakeFiles/1.3.dir/all
+all: CMakeFiles/CamminiLabirinto.dir/all
+all: CMakeFiles/0.3.dir/all
+all: CMakeFiles/2.3.dir/all
+all: CMakeFiles/3.1.dir/all
+all: CMakeFiles/3.2.dir/all
+all: CMakeFiles/2.2.dir/all
+all: CMakeFiles/ProveSorting.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/3.2.dir/clean
-clean: CMakeFiles/3.1.dir/clean
-clean: CMakeFiles/2.3.dir/clean
-clean: CMakeFiles/1.3.dir/clean
-clean: CMakeFiles/1.2.dir/clean
-clean: CMakeFiles/0.0_Prove.dir/clean
-clean: CMakeFiles/0.4.dir/clean
-clean: CMakeFiles/0.3.dir/clean
-clean: CMakeFiles/2.1.dir/clean
-clean: CMakeFiles/0.1.dir/clean
-clean: CMakeFiles/0.2.dir/clean
 clean: CMakeFiles/1.1.dir/clean
+clean: CMakeFiles/0.2.dir/clean
+clean: CMakeFiles/0.1.dir/clean
+clean: CMakeFiles/2.1.dir/clean
+clean: CMakeFiles/0.4.dir/clean
+clean: CMakeFiles/0.0_Prove.dir/clean
+clean: CMakeFiles/1.2.dir/clean
+clean: CMakeFiles/1.3.dir/clean
+clean: CMakeFiles/CamminiLabirinto.dir/clean
+clean: CMakeFiles/0.3.dir/clean
+clean: CMakeFiles/2.3.dir/clean
+clean: CMakeFiles/3.1.dir/clean
+clean: CMakeFiles/3.2.dir/clean
+clean: CMakeFiles/2.2.dir/clean
+clean: CMakeFiles/ProveSorting.dir/clean
 
 .PHONY : clean
 
@@ -90,274 +96,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/3.2.dir
+# Target rules for target CMakeFiles/1.1.dir
 
 # All Build rule for target.
-CMakeFiles/3.2.dir/all:
-	$(MAKE) -f CMakeFiles/3.2.dir/build.make CMakeFiles/3.2.dir/depend
-	$(MAKE) -f CMakeFiles/3.2.dir/build.make CMakeFiles/3.2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target 3.2"
-.PHONY : CMakeFiles/3.2.dir/all
+CMakeFiles/1.1.dir/all:
+	$(MAKE) -f CMakeFiles/1.1.dir/build.make CMakeFiles/1.1.dir/depend
+	$(MAKE) -f CMakeFiles/1.1.dir/build.make CMakeFiles/1.1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 1.1"
+.PHONY : CMakeFiles/1.1.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/3.2.dir/rule: cmake_check_build_system
+CMakeFiles/1.1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/3.2.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1.1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/3.2.dir/rule
+.PHONY : CMakeFiles/1.1.dir/rule
 
 # Convenience name for target.
-3.2: CMakeFiles/3.2.dir/rule
+1.1: CMakeFiles/1.1.dir/rule
 
-.PHONY : 3.2
-
-# clean rule for target.
-CMakeFiles/3.2.dir/clean:
-	$(MAKE) -f CMakeFiles/3.2.dir/build.make CMakeFiles/3.2.dir/clean
-.PHONY : CMakeFiles/3.2.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/3.1.dir
-
-# All Build rule for target.
-CMakeFiles/3.1.dir/all:
-	$(MAKE) -f CMakeFiles/3.1.dir/build.make CMakeFiles/3.1.dir/depend
-	$(MAKE) -f CMakeFiles/3.1.dir/build.make CMakeFiles/3.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target 3.1"
-.PHONY : CMakeFiles/3.1.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/3.1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/3.1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/3.1.dir/rule
-
-# Convenience name for target.
-3.1: CMakeFiles/3.1.dir/rule
-
-.PHONY : 3.1
+.PHONY : 1.1
 
 # clean rule for target.
-CMakeFiles/3.1.dir/clean:
-	$(MAKE) -f CMakeFiles/3.1.dir/build.make CMakeFiles/3.1.dir/clean
-.PHONY : CMakeFiles/3.1.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/2.3.dir
-
-# All Build rule for target.
-CMakeFiles/2.3.dir/all:
-	$(MAKE) -f CMakeFiles/2.3.dir/build.make CMakeFiles/2.3.dir/depend
-	$(MAKE) -f CMakeFiles/2.3.dir/build.make CMakeFiles/2.3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target 2.3"
-.PHONY : CMakeFiles/2.3.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2.3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2.3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2.3.dir/rule
-
-# Convenience name for target.
-2.3: CMakeFiles/2.3.dir/rule
-
-.PHONY : 2.3
-
-# clean rule for target.
-CMakeFiles/2.3.dir/clean:
-	$(MAKE) -f CMakeFiles/2.3.dir/build.make CMakeFiles/2.3.dir/clean
-.PHONY : CMakeFiles/2.3.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/1.3.dir
-
-# All Build rule for target.
-CMakeFiles/1.3.dir/all:
-	$(MAKE) -f CMakeFiles/1.3.dir/build.make CMakeFiles/1.3.dir/depend
-	$(MAKE) -f CMakeFiles/1.3.dir/build.make CMakeFiles/1.3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target 1.3"
-.PHONY : CMakeFiles/1.3.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/1.3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1.3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/1.3.dir/rule
-
-# Convenience name for target.
-1.3: CMakeFiles/1.3.dir/rule
-
-.PHONY : 1.3
-
-# clean rule for target.
-CMakeFiles/1.3.dir/clean:
-	$(MAKE) -f CMakeFiles/1.3.dir/build.make CMakeFiles/1.3.dir/clean
-.PHONY : CMakeFiles/1.3.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/1.2.dir
-
-# All Build rule for target.
-CMakeFiles/1.2.dir/all:
-	$(MAKE) -f CMakeFiles/1.2.dir/build.make CMakeFiles/1.2.dir/depend
-	$(MAKE) -f CMakeFiles/1.2.dir/build.make CMakeFiles/1.2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 1.2"
-.PHONY : CMakeFiles/1.2.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/1.2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1.2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/1.2.dir/rule
-
-# Convenience name for target.
-1.2: CMakeFiles/1.2.dir/rule
-
-.PHONY : 1.2
-
-# clean rule for target.
-CMakeFiles/1.2.dir/clean:
-	$(MAKE) -f CMakeFiles/1.2.dir/build.make CMakeFiles/1.2.dir/clean
-.PHONY : CMakeFiles/1.2.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/0.0_Prove.dir
-
-# All Build rule for target.
-CMakeFiles/0.0_Prove.dir/all:
-	$(MAKE) -f CMakeFiles/0.0_Prove.dir/build.make CMakeFiles/0.0_Prove.dir/depend
-	$(MAKE) -f CMakeFiles/0.0_Prove.dir/build.make CMakeFiles/0.0_Prove.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 0.0_Prove"
-.PHONY : CMakeFiles/0.0_Prove.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/0.0_Prove.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/0.0_Prove.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/0.0_Prove.dir/rule
-
-# Convenience name for target.
-0.0_Prove: CMakeFiles/0.0_Prove.dir/rule
-
-.PHONY : 0.0_Prove
-
-# clean rule for target.
-CMakeFiles/0.0_Prove.dir/clean:
-	$(MAKE) -f CMakeFiles/0.0_Prove.dir/build.make CMakeFiles/0.0_Prove.dir/clean
-.PHONY : CMakeFiles/0.0_Prove.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/0.4.dir
-
-# All Build rule for target.
-CMakeFiles/0.4.dir/all:
-	$(MAKE) -f CMakeFiles/0.4.dir/build.make CMakeFiles/0.4.dir/depend
-	$(MAKE) -f CMakeFiles/0.4.dir/build.make CMakeFiles/0.4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 0.4"
-.PHONY : CMakeFiles/0.4.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/0.4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/0.4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/0.4.dir/rule
-
-# Convenience name for target.
-0.4: CMakeFiles/0.4.dir/rule
-
-.PHONY : 0.4
-
-# clean rule for target.
-CMakeFiles/0.4.dir/clean:
-	$(MAKE) -f CMakeFiles/0.4.dir/build.make CMakeFiles/0.4.dir/clean
-.PHONY : CMakeFiles/0.4.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/0.3.dir
-
-# All Build rule for target.
-CMakeFiles/0.3.dir/all:
-	$(MAKE) -f CMakeFiles/0.3.dir/build.make CMakeFiles/0.3.dir/depend
-	$(MAKE) -f CMakeFiles/0.3.dir/build.make CMakeFiles/0.3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 0.3"
-.PHONY : CMakeFiles/0.3.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/0.3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/0.3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/0.3.dir/rule
-
-# Convenience name for target.
-0.3: CMakeFiles/0.3.dir/rule
-
-.PHONY : 0.3
-
-# clean rule for target.
-CMakeFiles/0.3.dir/clean:
-	$(MAKE) -f CMakeFiles/0.3.dir/build.make CMakeFiles/0.3.dir/clean
-.PHONY : CMakeFiles/0.3.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/2.1.dir
-
-# All Build rule for target.
-CMakeFiles/2.1.dir/all:
-	$(MAKE) -f CMakeFiles/2.1.dir/build.make CMakeFiles/2.1.dir/depend
-	$(MAKE) -f CMakeFiles/2.1.dir/build.make CMakeFiles/2.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target 2.1"
-.PHONY : CMakeFiles/2.1.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2.1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2.1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2.1.dir/rule
-
-# Convenience name for target.
-2.1: CMakeFiles/2.1.dir/rule
-
-.PHONY : 2.1
-
-# clean rule for target.
-CMakeFiles/2.1.dir/clean:
-	$(MAKE) -f CMakeFiles/2.1.dir/build.make CMakeFiles/2.1.dir/clean
-.PHONY : CMakeFiles/2.1.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/0.1.dir
-
-# All Build rule for target.
-CMakeFiles/0.1.dir/all:
-	$(MAKE) -f CMakeFiles/0.1.dir/build.make CMakeFiles/0.1.dir/depend
-	$(MAKE) -f CMakeFiles/0.1.dir/build.make CMakeFiles/0.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 0.1"
-.PHONY : CMakeFiles/0.1.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/0.1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/0.1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/0.1.dir/rule
-
-# Convenience name for target.
-0.1: CMakeFiles/0.1.dir/rule
-
-.PHONY : 0.1
-
-# clean rule for target.
-CMakeFiles/0.1.dir/clean:
-	$(MAKE) -f CMakeFiles/0.1.dir/build.make CMakeFiles/0.1.dir/clean
-.PHONY : CMakeFiles/0.1.dir/clean
+CMakeFiles/1.1.dir/clean:
+	$(MAKE) -f CMakeFiles/1.1.dir/build.make CMakeFiles/1.1.dir/clean
+.PHONY : CMakeFiles/1.1.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/0.2.dir
@@ -387,31 +150,355 @@ CMakeFiles/0.2.dir/clean:
 .PHONY : CMakeFiles/0.2.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/1.1.dir
+# Target rules for target CMakeFiles/0.1.dir
 
 # All Build rule for target.
-CMakeFiles/1.1.dir/all:
-	$(MAKE) -f CMakeFiles/1.1.dir/build.make CMakeFiles/1.1.dir/depend
-	$(MAKE) -f CMakeFiles/1.1.dir/build.make CMakeFiles/1.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 1.1"
-.PHONY : CMakeFiles/1.1.dir/all
+CMakeFiles/0.1.dir/all:
+	$(MAKE) -f CMakeFiles/0.1.dir/build.make CMakeFiles/0.1.dir/depend
+	$(MAKE) -f CMakeFiles/0.1.dir/build.make CMakeFiles/0.1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 0.1"
+.PHONY : CMakeFiles/0.1.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/1.1.dir/rule: cmake_check_build_system
+CMakeFiles/0.1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1.1.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/0.1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/1.1.dir/rule
+.PHONY : CMakeFiles/0.1.dir/rule
 
 # Convenience name for target.
-1.1: CMakeFiles/1.1.dir/rule
+0.1: CMakeFiles/0.1.dir/rule
 
-.PHONY : 1.1
+.PHONY : 0.1
 
 # clean rule for target.
-CMakeFiles/1.1.dir/clean:
-	$(MAKE) -f CMakeFiles/1.1.dir/build.make CMakeFiles/1.1.dir/clean
-.PHONY : CMakeFiles/1.1.dir/clean
+CMakeFiles/0.1.dir/clean:
+	$(MAKE) -f CMakeFiles/0.1.dir/build.make CMakeFiles/0.1.dir/clean
+.PHONY : CMakeFiles/0.1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2.1.dir
+
+# All Build rule for target.
+CMakeFiles/2.1.dir/all:
+	$(MAKE) -f CMakeFiles/2.1.dir/build.make CMakeFiles/2.1.dir/depend
+	$(MAKE) -f CMakeFiles/2.1.dir/build.make CMakeFiles/2.1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target 2.1"
+.PHONY : CMakeFiles/2.1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2.1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2.1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2.1.dir/rule
+
+# Convenience name for target.
+2.1: CMakeFiles/2.1.dir/rule
+
+.PHONY : 2.1
+
+# clean rule for target.
+CMakeFiles/2.1.dir/clean:
+	$(MAKE) -f CMakeFiles/2.1.dir/build.make CMakeFiles/2.1.dir/clean
+.PHONY : CMakeFiles/2.1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/0.4.dir
+
+# All Build rule for target.
+CMakeFiles/0.4.dir/all:
+	$(MAKE) -f CMakeFiles/0.4.dir/build.make CMakeFiles/0.4.dir/depend
+	$(MAKE) -f CMakeFiles/0.4.dir/build.make CMakeFiles/0.4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 0.4"
+.PHONY : CMakeFiles/0.4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/0.4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/0.4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/0.4.dir/rule
+
+# Convenience name for target.
+0.4: CMakeFiles/0.4.dir/rule
+
+.PHONY : 0.4
+
+# clean rule for target.
+CMakeFiles/0.4.dir/clean:
+	$(MAKE) -f CMakeFiles/0.4.dir/build.make CMakeFiles/0.4.dir/clean
+.PHONY : CMakeFiles/0.4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/0.0_Prove.dir
+
+# All Build rule for target.
+CMakeFiles/0.0_Prove.dir/all:
+	$(MAKE) -f CMakeFiles/0.0_Prove.dir/build.make CMakeFiles/0.0_Prove.dir/depend
+	$(MAKE) -f CMakeFiles/0.0_Prove.dir/build.make CMakeFiles/0.0_Prove.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 0.0_Prove"
+.PHONY : CMakeFiles/0.0_Prove.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/0.0_Prove.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/0.0_Prove.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/0.0_Prove.dir/rule
+
+# Convenience name for target.
+0.0_Prove: CMakeFiles/0.0_Prove.dir/rule
+
+.PHONY : 0.0_Prove
+
+# clean rule for target.
+CMakeFiles/0.0_Prove.dir/clean:
+	$(MAKE) -f CMakeFiles/0.0_Prove.dir/build.make CMakeFiles/0.0_Prove.dir/clean
+.PHONY : CMakeFiles/0.0_Prove.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1.2.dir
+
+# All Build rule for target.
+CMakeFiles/1.2.dir/all:
+	$(MAKE) -f CMakeFiles/1.2.dir/build.make CMakeFiles/1.2.dir/depend
+	$(MAKE) -f CMakeFiles/1.2.dir/build.make CMakeFiles/1.2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 1.2"
+.PHONY : CMakeFiles/1.2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1.2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1.2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1.2.dir/rule
+
+# Convenience name for target.
+1.2: CMakeFiles/1.2.dir/rule
+
+.PHONY : 1.2
+
+# clean rule for target.
+CMakeFiles/1.2.dir/clean:
+	$(MAKE) -f CMakeFiles/1.2.dir/build.make CMakeFiles/1.2.dir/clean
+.PHONY : CMakeFiles/1.2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1.3.dir
+
+# All Build rule for target.
+CMakeFiles/1.3.dir/all:
+	$(MAKE) -f CMakeFiles/1.3.dir/build.make CMakeFiles/1.3.dir/depend
+	$(MAKE) -f CMakeFiles/1.3.dir/build.make CMakeFiles/1.3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target 1.3"
+.PHONY : CMakeFiles/1.3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1.3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1.3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1.3.dir/rule
+
+# Convenience name for target.
+1.3: CMakeFiles/1.3.dir/rule
+
+.PHONY : 1.3
+
+# clean rule for target.
+CMakeFiles/1.3.dir/clean:
+	$(MAKE) -f CMakeFiles/1.3.dir/build.make CMakeFiles/1.3.dir/clean
+.PHONY : CMakeFiles/1.3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CamminiLabirinto.dir
+
+# All Build rule for target.
+CMakeFiles/CamminiLabirinto.dir/all:
+	$(MAKE) -f CMakeFiles/CamminiLabirinto.dir/build.make CMakeFiles/CamminiLabirinto.dir/depend
+	$(MAKE) -f CMakeFiles/CamminiLabirinto.dir/build.make CMakeFiles/CamminiLabirinto.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target CamminiLabirinto"
+.PHONY : CMakeFiles/CamminiLabirinto.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CamminiLabirinto.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CamminiLabirinto.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CamminiLabirinto.dir/rule
+
+# Convenience name for target.
+CamminiLabirinto: CMakeFiles/CamminiLabirinto.dir/rule
+
+.PHONY : CamminiLabirinto
+
+# clean rule for target.
+CMakeFiles/CamminiLabirinto.dir/clean:
+	$(MAKE) -f CMakeFiles/CamminiLabirinto.dir/build.make CMakeFiles/CamminiLabirinto.dir/clean
+.PHONY : CMakeFiles/CamminiLabirinto.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/0.3.dir
+
+# All Build rule for target.
+CMakeFiles/0.3.dir/all:
+	$(MAKE) -f CMakeFiles/0.3.dir/build.make CMakeFiles/0.3.dir/depend
+	$(MAKE) -f CMakeFiles/0.3.dir/build.make CMakeFiles/0.3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 0.3"
+.PHONY : CMakeFiles/0.3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/0.3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/0.3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/0.3.dir/rule
+
+# Convenience name for target.
+0.3: CMakeFiles/0.3.dir/rule
+
+.PHONY : 0.3
+
+# clean rule for target.
+CMakeFiles/0.3.dir/clean:
+	$(MAKE) -f CMakeFiles/0.3.dir/build.make CMakeFiles/0.3.dir/clean
+.PHONY : CMakeFiles/0.3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2.3.dir
+
+# All Build rule for target.
+CMakeFiles/2.3.dir/all:
+	$(MAKE) -f CMakeFiles/2.3.dir/build.make CMakeFiles/2.3.dir/depend
+	$(MAKE) -f CMakeFiles/2.3.dir/build.make CMakeFiles/2.3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target 2.3"
+.PHONY : CMakeFiles/2.3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2.3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2.3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2.3.dir/rule
+
+# Convenience name for target.
+2.3: CMakeFiles/2.3.dir/rule
+
+.PHONY : 2.3
+
+# clean rule for target.
+CMakeFiles/2.3.dir/clean:
+	$(MAKE) -f CMakeFiles/2.3.dir/build.make CMakeFiles/2.3.dir/clean
+.PHONY : CMakeFiles/2.3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/3.1.dir
+
+# All Build rule for target.
+CMakeFiles/3.1.dir/all:
+	$(MAKE) -f CMakeFiles/3.1.dir/build.make CMakeFiles/3.1.dir/depend
+	$(MAKE) -f CMakeFiles/3.1.dir/build.make CMakeFiles/3.1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target 3.1"
+.PHONY : CMakeFiles/3.1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/3.1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/3.1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/3.1.dir/rule
+
+# Convenience name for target.
+3.1: CMakeFiles/3.1.dir/rule
+
+.PHONY : 3.1
+
+# clean rule for target.
+CMakeFiles/3.1.dir/clean:
+	$(MAKE) -f CMakeFiles/3.1.dir/build.make CMakeFiles/3.1.dir/clean
+.PHONY : CMakeFiles/3.1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/3.2.dir
+
+# All Build rule for target.
+CMakeFiles/3.2.dir/all:
+	$(MAKE) -f CMakeFiles/3.2.dir/build.make CMakeFiles/3.2.dir/depend
+	$(MAKE) -f CMakeFiles/3.2.dir/build.make CMakeFiles/3.2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target 3.2"
+.PHONY : CMakeFiles/3.2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/3.2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/3.2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/3.2.dir/rule
+
+# Convenience name for target.
+3.2: CMakeFiles/3.2.dir/rule
+
+.PHONY : 3.2
+
+# clean rule for target.
+CMakeFiles/3.2.dir/clean:
+	$(MAKE) -f CMakeFiles/3.2.dir/build.make CMakeFiles/3.2.dir/clean
+.PHONY : CMakeFiles/3.2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2.2.dir
+
+# All Build rule for target.
+CMakeFiles/2.2.dir/all:
+	$(MAKE) -f CMakeFiles/2.2.dir/build.make CMakeFiles/2.2.dir/depend
+	$(MAKE) -f CMakeFiles/2.2.dir/build.make CMakeFiles/2.2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target 2.2"
+.PHONY : CMakeFiles/2.2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2.2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2.2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2.2.dir/rule
+
+# Convenience name for target.
+2.2: CMakeFiles/2.2.dir/rule
+
+.PHONY : 2.2
+
+# clean rule for target.
+CMakeFiles/2.2.dir/clean:
+	$(MAKE) -f CMakeFiles/2.2.dir/build.make CMakeFiles/2.2.dir/clean
+.PHONY : CMakeFiles/2.2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ProveSorting.dir
+
+# All Build rule for target.
+CMakeFiles/ProveSorting.dir/all:
+	$(MAKE) -f CMakeFiles/ProveSorting.dir/build.make CMakeFiles/ProveSorting.dir/depend
+	$(MAKE) -f CMakeFiles/ProveSorting.dir/build.make CMakeFiles/ProveSorting.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target ProveSorting"
+.PHONY : CMakeFiles/ProveSorting.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ProveSorting.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ProveSorting.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ProveSorting.dir/rule
+
+# Convenience name for target.
+ProveSorting: CMakeFiles/ProveSorting.dir/rule
+
+.PHONY : ProveSorting
+
+# clean rule for target.
+CMakeFiles/ProveSorting.dir/clean:
+	$(MAKE) -f CMakeFiles/ProveSorting.dir/build.make CMakeFiles/ProveSorting.dir/clean
+.PHONY : CMakeFiles/ProveSorting.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

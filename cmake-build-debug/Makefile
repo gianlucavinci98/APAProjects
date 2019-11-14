@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/gianluca/CLionProjects/APAProjects/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/gianluca/CLion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/gianluca/CLion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,134 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 3.2
+# Target rules for targets named 1.1
 
 # Build rule for target.
-3.2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 3.2
-.PHONY : 3.2
+1.1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1.1
+.PHONY : 1.1
 
 # fast build rule for target.
-3.2/fast:
-	$(MAKE) -f CMakeFiles/3.2.dir/build.make CMakeFiles/3.2.dir/build
-.PHONY : 3.2/fast
-
-#=============================================================================
-# Target rules for targets named 3.1
-
-# Build rule for target.
-3.1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 3.1
-.PHONY : 3.1
-
-# fast build rule for target.
-3.1/fast:
-	$(MAKE) -f CMakeFiles/3.1.dir/build.make CMakeFiles/3.1.dir/build
-.PHONY : 3.1/fast
-
-#=============================================================================
-# Target rules for targets named 2.3
-
-# Build rule for target.
-2.3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 2.3
-.PHONY : 2.3
-
-# fast build rule for target.
-2.3/fast:
-	$(MAKE) -f CMakeFiles/2.3.dir/build.make CMakeFiles/2.3.dir/build
-.PHONY : 2.3/fast
-
-#=============================================================================
-# Target rules for targets named 1.3
-
-# Build rule for target.
-1.3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1.3
-.PHONY : 1.3
-
-# fast build rule for target.
-1.3/fast:
-	$(MAKE) -f CMakeFiles/1.3.dir/build.make CMakeFiles/1.3.dir/build
-.PHONY : 1.3/fast
-
-#=============================================================================
-# Target rules for targets named 1.2
-
-# Build rule for target.
-1.2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1.2
-.PHONY : 1.2
-
-# fast build rule for target.
-1.2/fast:
-	$(MAKE) -f CMakeFiles/1.2.dir/build.make CMakeFiles/1.2.dir/build
-.PHONY : 1.2/fast
-
-#=============================================================================
-# Target rules for targets named 0.0_Prove
-
-# Build rule for target.
-0.0_Prove: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 0.0_Prove
-.PHONY : 0.0_Prove
-
-# fast build rule for target.
-0.0_Prove/fast:
-	$(MAKE) -f CMakeFiles/0.0_Prove.dir/build.make CMakeFiles/0.0_Prove.dir/build
-.PHONY : 0.0_Prove/fast
-
-#=============================================================================
-# Target rules for targets named 0.4
-
-# Build rule for target.
-0.4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 0.4
-.PHONY : 0.4
-
-# fast build rule for target.
-0.4/fast:
-	$(MAKE) -f CMakeFiles/0.4.dir/build.make CMakeFiles/0.4.dir/build
-.PHONY : 0.4/fast
-
-#=============================================================================
-# Target rules for targets named 0.3
-
-# Build rule for target.
-0.3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 0.3
-.PHONY : 0.3
-
-# fast build rule for target.
-0.3/fast:
-	$(MAKE) -f CMakeFiles/0.3.dir/build.make CMakeFiles/0.3.dir/build
-.PHONY : 0.3/fast
-
-#=============================================================================
-# Target rules for targets named 2.1
-
-# Build rule for target.
-2.1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 2.1
-.PHONY : 2.1
-
-# fast build rule for target.
-2.1/fast:
-	$(MAKE) -f CMakeFiles/2.1.dir/build.make CMakeFiles/2.1.dir/build
-.PHONY : 2.1/fast
-
-#=============================================================================
-# Target rules for targets named 0.1
-
-# Build rule for target.
-0.1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 0.1
-.PHONY : 0.1
-
-# fast build rule for target.
-0.1/fast:
-	$(MAKE) -f CMakeFiles/0.1.dir/build.make CMakeFiles/0.1.dir/build
-.PHONY : 0.1/fast
+1.1/fast:
+	$(MAKE) -f CMakeFiles/1.1.dir/build.make CMakeFiles/1.1.dir/build
+.PHONY : 1.1/fast
 
 #=============================================================================
 # Target rules for targets named 0.2
@@ -254,17 +137,173 @@ depend:
 .PHONY : 0.2/fast
 
 #=============================================================================
-# Target rules for targets named 1.1
+# Target rules for targets named 0.1
 
 # Build rule for target.
-1.1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1.1
-.PHONY : 1.1
+0.1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 0.1
+.PHONY : 0.1
 
 # fast build rule for target.
-1.1/fast:
-	$(MAKE) -f CMakeFiles/1.1.dir/build.make CMakeFiles/1.1.dir/build
-.PHONY : 1.1/fast
+0.1/fast:
+	$(MAKE) -f CMakeFiles/0.1.dir/build.make CMakeFiles/0.1.dir/build
+.PHONY : 0.1/fast
+
+#=============================================================================
+# Target rules for targets named 2.1
+
+# Build rule for target.
+2.1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2.1
+.PHONY : 2.1
+
+# fast build rule for target.
+2.1/fast:
+	$(MAKE) -f CMakeFiles/2.1.dir/build.make CMakeFiles/2.1.dir/build
+.PHONY : 2.1/fast
+
+#=============================================================================
+# Target rules for targets named 0.4
+
+# Build rule for target.
+0.4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 0.4
+.PHONY : 0.4
+
+# fast build rule for target.
+0.4/fast:
+	$(MAKE) -f CMakeFiles/0.4.dir/build.make CMakeFiles/0.4.dir/build
+.PHONY : 0.4/fast
+
+#=============================================================================
+# Target rules for targets named 0.0_Prove
+
+# Build rule for target.
+0.0_Prove: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 0.0_Prove
+.PHONY : 0.0_Prove
+
+# fast build rule for target.
+0.0_Prove/fast:
+	$(MAKE) -f CMakeFiles/0.0_Prove.dir/build.make CMakeFiles/0.0_Prove.dir/build
+.PHONY : 0.0_Prove/fast
+
+#=============================================================================
+# Target rules for targets named 1.2
+
+# Build rule for target.
+1.2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1.2
+.PHONY : 1.2
+
+# fast build rule for target.
+1.2/fast:
+	$(MAKE) -f CMakeFiles/1.2.dir/build.make CMakeFiles/1.2.dir/build
+.PHONY : 1.2/fast
+
+#=============================================================================
+# Target rules for targets named 1.3
+
+# Build rule for target.
+1.3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1.3
+.PHONY : 1.3
+
+# fast build rule for target.
+1.3/fast:
+	$(MAKE) -f CMakeFiles/1.3.dir/build.make CMakeFiles/1.3.dir/build
+.PHONY : 1.3/fast
+
+#=============================================================================
+# Target rules for targets named CamminiLabirinto
+
+# Build rule for target.
+CamminiLabirinto: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CamminiLabirinto
+.PHONY : CamminiLabirinto
+
+# fast build rule for target.
+CamminiLabirinto/fast:
+	$(MAKE) -f CMakeFiles/CamminiLabirinto.dir/build.make CMakeFiles/CamminiLabirinto.dir/build
+.PHONY : CamminiLabirinto/fast
+
+#=============================================================================
+# Target rules for targets named 0.3
+
+# Build rule for target.
+0.3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 0.3
+.PHONY : 0.3
+
+# fast build rule for target.
+0.3/fast:
+	$(MAKE) -f CMakeFiles/0.3.dir/build.make CMakeFiles/0.3.dir/build
+.PHONY : 0.3/fast
+
+#=============================================================================
+# Target rules for targets named 2.3
+
+# Build rule for target.
+2.3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2.3
+.PHONY : 2.3
+
+# fast build rule for target.
+2.3/fast:
+	$(MAKE) -f CMakeFiles/2.3.dir/build.make CMakeFiles/2.3.dir/build
+.PHONY : 2.3/fast
+
+#=============================================================================
+# Target rules for targets named 3.1
+
+# Build rule for target.
+3.1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 3.1
+.PHONY : 3.1
+
+# fast build rule for target.
+3.1/fast:
+	$(MAKE) -f CMakeFiles/3.1.dir/build.make CMakeFiles/3.1.dir/build
+.PHONY : 3.1/fast
+
+#=============================================================================
+# Target rules for targets named 3.2
+
+# Build rule for target.
+3.2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 3.2
+.PHONY : 3.2
+
+# fast build rule for target.
+3.2/fast:
+	$(MAKE) -f CMakeFiles/3.2.dir/build.make CMakeFiles/3.2.dir/build
+.PHONY : 3.2/fast
+
+#=============================================================================
+# Target rules for targets named 2.2
+
+# Build rule for target.
+2.2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2.2
+.PHONY : 2.2
+
+# fast build rule for target.
+2.2/fast:
+	$(MAKE) -f CMakeFiles/2.2.dir/build.make CMakeFiles/2.2.dir/build
+.PHONY : 2.2/fast
+
+#=============================================================================
+# Target rules for targets named ProveSorting
+
+# Build rule for target.
+ProveSorting: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ProveSorting
+.PHONY : ProveSorting
+
+# fast build rule for target.
+ProveSorting/fast:
+	$(MAKE) -f CMakeFiles/ProveSorting.dir/build.make CMakeFiles/ProveSorting.dir/build
+.PHONY : ProveSorting/fast
 
 0.0_Prove/main.o: 0.0_Prove/main.c.o
 
@@ -509,6 +548,33 @@ depend:
 	$(MAKE) -f CMakeFiles/2.1.dir/build.make CMakeFiles/2.1.dir/2.1/main.c.s
 .PHONY : 2.1/main.c.s
 
+2.2/main.o: 2.2/main.c.o
+
+.PHONY : 2.2/main.o
+
+# target to build an object file
+2.2/main.c.o:
+	$(MAKE) -f CMakeFiles/2.2.dir/build.make CMakeFiles/2.2.dir/2.2/main.c.o
+.PHONY : 2.2/main.c.o
+
+2.2/main.i: 2.2/main.c.i
+
+.PHONY : 2.2/main.i
+
+# target to preprocess a source file
+2.2/main.c.i:
+	$(MAKE) -f CMakeFiles/2.2.dir/build.make CMakeFiles/2.2.dir/2.2/main.c.i
+.PHONY : 2.2/main.c.i
+
+2.2/main.s: 2.2/main.c.s
+
+.PHONY : 2.2/main.s
+
+# target to generate assembly for a file
+2.2/main.c.s:
+	$(MAKE) -f CMakeFiles/2.2.dir/build.make CMakeFiles/2.2.dir/2.2/main.c.s
+.PHONY : 2.2/main.c.s
+
 2.3/main.o: 2.3/main.c.o
 
 .PHONY : 2.3/main.o
@@ -590,26 +656,83 @@ depend:
 	$(MAKE) -f CMakeFiles/3.2.dir/build.make CMakeFiles/3.2.dir/3.2/main.c.s
 .PHONY : 3.2/main.c.s
 
+CamminiLabirinto/main.o: CamminiLabirinto/main.c.o
+
+.PHONY : CamminiLabirinto/main.o
+
+# target to build an object file
+CamminiLabirinto/main.c.o:
+	$(MAKE) -f CMakeFiles/CamminiLabirinto.dir/build.make CMakeFiles/CamminiLabirinto.dir/CamminiLabirinto/main.c.o
+.PHONY : CamminiLabirinto/main.c.o
+
+CamminiLabirinto/main.i: CamminiLabirinto/main.c.i
+
+.PHONY : CamminiLabirinto/main.i
+
+# target to preprocess a source file
+CamminiLabirinto/main.c.i:
+	$(MAKE) -f CMakeFiles/CamminiLabirinto.dir/build.make CMakeFiles/CamminiLabirinto.dir/CamminiLabirinto/main.c.i
+.PHONY : CamminiLabirinto/main.c.i
+
+CamminiLabirinto/main.s: CamminiLabirinto/main.c.s
+
+.PHONY : CamminiLabirinto/main.s
+
+# target to generate assembly for a file
+CamminiLabirinto/main.c.s:
+	$(MAKE) -f CMakeFiles/CamminiLabirinto.dir/build.make CMakeFiles/CamminiLabirinto.dir/CamminiLabirinto/main.c.s
+.PHONY : CamminiLabirinto/main.c.s
+
+ProveSorting/main.o: ProveSorting/main.c.o
+
+.PHONY : ProveSorting/main.o
+
+# target to build an object file
+ProveSorting/main.c.o:
+	$(MAKE) -f CMakeFiles/ProveSorting.dir/build.make CMakeFiles/ProveSorting.dir/ProveSorting/main.c.o
+.PHONY : ProveSorting/main.c.o
+
+ProveSorting/main.i: ProveSorting/main.c.i
+
+.PHONY : ProveSorting/main.i
+
+# target to preprocess a source file
+ProveSorting/main.c.i:
+	$(MAKE) -f CMakeFiles/ProveSorting.dir/build.make CMakeFiles/ProveSorting.dir/ProveSorting/main.c.i
+.PHONY : ProveSorting/main.c.i
+
+ProveSorting/main.s: ProveSorting/main.c.s
+
+.PHONY : ProveSorting/main.s
+
+# target to generate assembly for a file
+ProveSorting/main.c.s:
+	$(MAKE) -f CMakeFiles/ProveSorting.dir/build.make CMakeFiles/ProveSorting.dir/ProveSorting/main.c.s
+.PHONY : ProveSorting/main.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... 3.2"
-	@echo "... 3.1"
-	@echo "... 2.3"
-	@echo "... rebuild_cache"
-	@echo "... 1.3"
-	@echo "... 1.2"
-	@echo "... 0.0_Prove"
-	@echo "... 0.4"
-	@echo "... 0.3"
-	@echo "... 2.1"
-	@echo "... 0.1"
-	@echo "... 0.2"
 	@echo "... 1.1"
+	@echo "... 0.2"
+	@echo "... 0.1"
+	@echo "... 2.1"
+	@echo "... 0.4"
+	@echo "... 0.0_Prove"
+	@echo "... 1.2"
+	@echo "... 1.3"
+	@echo "... CamminiLabirinto"
+	@echo "... 0.3"
+	@echo "... 2.3"
+	@echo "... 3.1"
+	@echo "... rebuild_cache"
+	@echo "... 3.2"
+	@echo "... 2.2"
+	@echo "... ProveSorting"
+	@echo "... edit_cache"
 	@echo "... 0.0_Prove/main.o"
 	@echo "... 0.0_Prove/main.i"
 	@echo "... 0.0_Prove/main.s"
@@ -637,6 +760,9 @@ help:
 	@echo "... 2.1/main.o"
 	@echo "... 2.1/main.i"
 	@echo "... 2.1/main.s"
+	@echo "... 2.2/main.o"
+	@echo "... 2.2/main.i"
+	@echo "... 2.2/main.s"
 	@echo "... 2.3/main.o"
 	@echo "... 2.3/main.i"
 	@echo "... 2.3/main.s"
@@ -646,6 +772,12 @@ help:
 	@echo "... 3.2/main.o"
 	@echo "... 3.2/main.i"
 	@echo "... 3.2/main.s"
+	@echo "... CamminiLabirinto/main.o"
+	@echo "... CamminiLabirinto/main.i"
+	@echo "... CamminiLabirinto/main.s"
+	@echo "... ProveSorting/main.o"
+	@echo "... ProveSorting/main.i"
+	@echo "... ProveSorting/main.s"
 .PHONY : help
 
 
