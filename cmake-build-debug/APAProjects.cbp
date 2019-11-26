@@ -17,6 +17,256 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5.3">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/5.3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 5.3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5.3/fast">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/5.3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 5.3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5.1">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/5.1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 5.1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5.1/fast">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/5.1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 5.1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4.3">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/4.3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 4.3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4.3/fast">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/4.3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 4.3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4.5">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/4.5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 4.5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4.5/fast">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/4.5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 4.5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4.2">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/4.2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 4.2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4.2/fast">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/4.2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 4.2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4.1">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/4.1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 4.1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4.1/fast">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/4.1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 4.1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="1.1">
 				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/1.1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
@@ -137,6 +387,46 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="4.4">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/4.4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 4.4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4.4/fast">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/4.4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 4.4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="2.1">
 				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/2.1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
@@ -172,6 +462,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 2.1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5.2">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/5.2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 5.2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5.2/fast">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/5.2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 5.2/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -627,11 +957,41 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="Gray">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Gray" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gray"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Gray/fast">
+				<Option output="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Gray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gianluca/CLionProjects/APAProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gray/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -677,8 +1037,35 @@
 		<Unit filename="/home/gianluca/CLionProjects/APAProjects/3.2/main.c">
 			<Option target="3.2"/>
 		</Unit>
+		<Unit filename="/home/gianluca/CLionProjects/APAProjects/4.1/main.c">
+			<Option target="4.1"/>
+		</Unit>
+		<Unit filename="/home/gianluca/CLionProjects/APAProjects/4.2/main.c">
+			<Option target="4.2"/>
+		</Unit>
+		<Unit filename="/home/gianluca/CLionProjects/APAProjects/4.3/main.c">
+			<Option target="4.3"/>
+		</Unit>
+		<Unit filename="/home/gianluca/CLionProjects/APAProjects/4.4/main.c">
+			<Option target="4.4"/>
+		</Unit>
+		<Unit filename="/home/gianluca/CLionProjects/APAProjects/4.5/main.c">
+			<Option target="4.5"/>
+		</Unit>
+		<Unit filename="/home/gianluca/CLionProjects/APAProjects/5.1/main.c">
+			<Option target="5.1"/>
+		</Unit>
+		<Unit filename="/home/gianluca/CLionProjects/APAProjects/5.2/main.c">
+			<Option target="5.2"/>
+		</Unit>
+		<Unit filename="/home/gianluca/CLionProjects/APAProjects/5.3/main.c">
+			<Option target="5.3"/>
+		</Unit>
 		<Unit filename="/home/gianluca/CLionProjects/APAProjects/CamminiLabirinto/main.c">
 			<Option target="CamminiLabirinto"/>
+		</Unit>
+		<Unit filename="/home/gianluca/CLionProjects/APAProjects/Gray/main.c">
+			<Option target="Gray"/>
 		</Unit>
 		<Unit filename="/home/gianluca/CLionProjects/APAProjects/ProveSorting/main.c">
 			<Option target="ProveSorting"/>

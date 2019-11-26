@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/gianluca/CLionProjects/APAProjects/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/gianluca/CLion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/gianluca/CLion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,6 +109,84 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named 5.3
+
+# Build rule for target.
+5.3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 5.3
+.PHONY : 5.3
+
+# fast build rule for target.
+5.3/fast:
+	$(MAKE) -f CMakeFiles/5.3.dir/build.make CMakeFiles/5.3.dir/build
+.PHONY : 5.3/fast
+
+#=============================================================================
+# Target rules for targets named 5.1
+
+# Build rule for target.
+5.1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 5.1
+.PHONY : 5.1
+
+# fast build rule for target.
+5.1/fast:
+	$(MAKE) -f CMakeFiles/5.1.dir/build.make CMakeFiles/5.1.dir/build
+.PHONY : 5.1/fast
+
+#=============================================================================
+# Target rules for targets named 4.3
+
+# Build rule for target.
+4.3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 4.3
+.PHONY : 4.3
+
+# fast build rule for target.
+4.3/fast:
+	$(MAKE) -f CMakeFiles/4.3.dir/build.make CMakeFiles/4.3.dir/build
+.PHONY : 4.3/fast
+
+#=============================================================================
+# Target rules for targets named 4.5
+
+# Build rule for target.
+4.5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 4.5
+.PHONY : 4.5
+
+# fast build rule for target.
+4.5/fast:
+	$(MAKE) -f CMakeFiles/4.5.dir/build.make CMakeFiles/4.5.dir/build
+.PHONY : 4.5/fast
+
+#=============================================================================
+# Target rules for targets named 4.2
+
+# Build rule for target.
+4.2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 4.2
+.PHONY : 4.2
+
+# fast build rule for target.
+4.2/fast:
+	$(MAKE) -f CMakeFiles/4.2.dir/build.make CMakeFiles/4.2.dir/build
+.PHONY : 4.2/fast
+
+#=============================================================================
+# Target rules for targets named 4.1
+
+# Build rule for target.
+4.1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 4.1
+.PHONY : 4.1
+
+# fast build rule for target.
+4.1/fast:
+	$(MAKE) -f CMakeFiles/4.1.dir/build.make CMakeFiles/4.1.dir/build
+.PHONY : 4.1/fast
 
 #=============================================================================
 # Target rules for targets named 1.1
@@ -150,6 +228,19 @@ depend:
 .PHONY : 0.1/fast
 
 #=============================================================================
+# Target rules for targets named 4.4
+
+# Build rule for target.
+4.4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 4.4
+.PHONY : 4.4
+
+# fast build rule for target.
+4.4/fast:
+	$(MAKE) -f CMakeFiles/4.4.dir/build.make CMakeFiles/4.4.dir/build
+.PHONY : 4.4/fast
+
+#=============================================================================
 # Target rules for targets named 2.1
 
 # Build rule for target.
@@ -161,6 +252,19 @@ depend:
 2.1/fast:
 	$(MAKE) -f CMakeFiles/2.1.dir/build.make CMakeFiles/2.1.dir/build
 .PHONY : 2.1/fast
+
+#=============================================================================
+# Target rules for targets named 5.2
+
+# Build rule for target.
+5.2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 5.2
+.PHONY : 5.2
+
+# fast build rule for target.
+5.2/fast:
+	$(MAKE) -f CMakeFiles/5.2.dir/build.make CMakeFiles/5.2.dir/build
+.PHONY : 5.2/fast
 
 #=============================================================================
 # Target rules for targets named 0.4
@@ -304,6 +408,19 @@ ProveSorting: cmake_check_build_system
 ProveSorting/fast:
 	$(MAKE) -f CMakeFiles/ProveSorting.dir/build.make CMakeFiles/ProveSorting.dir/build
 .PHONY : ProveSorting/fast
+
+#=============================================================================
+# Target rules for targets named Gray
+
+# Build rule for target.
+Gray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Gray
+.PHONY : Gray
+
+# fast build rule for target.
+Gray/fast:
+	$(MAKE) -f CMakeFiles/Gray.dir/build.make CMakeFiles/Gray.dir/build
+.PHONY : Gray/fast
 
 0.0_Prove/main.o: 0.0_Prove/main.c.o
 
@@ -656,6 +773,222 @@ ProveSorting/fast:
 	$(MAKE) -f CMakeFiles/3.2.dir/build.make CMakeFiles/3.2.dir/3.2/main.c.s
 .PHONY : 3.2/main.c.s
 
+4.1/main.o: 4.1/main.c.o
+
+.PHONY : 4.1/main.o
+
+# target to build an object file
+4.1/main.c.o:
+	$(MAKE) -f CMakeFiles/4.1.dir/build.make CMakeFiles/4.1.dir/4.1/main.c.o
+.PHONY : 4.1/main.c.o
+
+4.1/main.i: 4.1/main.c.i
+
+.PHONY : 4.1/main.i
+
+# target to preprocess a source file
+4.1/main.c.i:
+	$(MAKE) -f CMakeFiles/4.1.dir/build.make CMakeFiles/4.1.dir/4.1/main.c.i
+.PHONY : 4.1/main.c.i
+
+4.1/main.s: 4.1/main.c.s
+
+.PHONY : 4.1/main.s
+
+# target to generate assembly for a file
+4.1/main.c.s:
+	$(MAKE) -f CMakeFiles/4.1.dir/build.make CMakeFiles/4.1.dir/4.1/main.c.s
+.PHONY : 4.1/main.c.s
+
+4.2/main.o: 4.2/main.c.o
+
+.PHONY : 4.2/main.o
+
+# target to build an object file
+4.2/main.c.o:
+	$(MAKE) -f CMakeFiles/4.2.dir/build.make CMakeFiles/4.2.dir/4.2/main.c.o
+.PHONY : 4.2/main.c.o
+
+4.2/main.i: 4.2/main.c.i
+
+.PHONY : 4.2/main.i
+
+# target to preprocess a source file
+4.2/main.c.i:
+	$(MAKE) -f CMakeFiles/4.2.dir/build.make CMakeFiles/4.2.dir/4.2/main.c.i
+.PHONY : 4.2/main.c.i
+
+4.2/main.s: 4.2/main.c.s
+
+.PHONY : 4.2/main.s
+
+# target to generate assembly for a file
+4.2/main.c.s:
+	$(MAKE) -f CMakeFiles/4.2.dir/build.make CMakeFiles/4.2.dir/4.2/main.c.s
+.PHONY : 4.2/main.c.s
+
+4.3/main.o: 4.3/main.c.o
+
+.PHONY : 4.3/main.o
+
+# target to build an object file
+4.3/main.c.o:
+	$(MAKE) -f CMakeFiles/4.3.dir/build.make CMakeFiles/4.3.dir/4.3/main.c.o
+.PHONY : 4.3/main.c.o
+
+4.3/main.i: 4.3/main.c.i
+
+.PHONY : 4.3/main.i
+
+# target to preprocess a source file
+4.3/main.c.i:
+	$(MAKE) -f CMakeFiles/4.3.dir/build.make CMakeFiles/4.3.dir/4.3/main.c.i
+.PHONY : 4.3/main.c.i
+
+4.3/main.s: 4.3/main.c.s
+
+.PHONY : 4.3/main.s
+
+# target to generate assembly for a file
+4.3/main.c.s:
+	$(MAKE) -f CMakeFiles/4.3.dir/build.make CMakeFiles/4.3.dir/4.3/main.c.s
+.PHONY : 4.3/main.c.s
+
+4.4/main.o: 4.4/main.c.o
+
+.PHONY : 4.4/main.o
+
+# target to build an object file
+4.4/main.c.o:
+	$(MAKE) -f CMakeFiles/4.4.dir/build.make CMakeFiles/4.4.dir/4.4/main.c.o
+.PHONY : 4.4/main.c.o
+
+4.4/main.i: 4.4/main.c.i
+
+.PHONY : 4.4/main.i
+
+# target to preprocess a source file
+4.4/main.c.i:
+	$(MAKE) -f CMakeFiles/4.4.dir/build.make CMakeFiles/4.4.dir/4.4/main.c.i
+.PHONY : 4.4/main.c.i
+
+4.4/main.s: 4.4/main.c.s
+
+.PHONY : 4.4/main.s
+
+# target to generate assembly for a file
+4.4/main.c.s:
+	$(MAKE) -f CMakeFiles/4.4.dir/build.make CMakeFiles/4.4.dir/4.4/main.c.s
+.PHONY : 4.4/main.c.s
+
+4.5/main.o: 4.5/main.c.o
+
+.PHONY : 4.5/main.o
+
+# target to build an object file
+4.5/main.c.o:
+	$(MAKE) -f CMakeFiles/4.5.dir/build.make CMakeFiles/4.5.dir/4.5/main.c.o
+.PHONY : 4.5/main.c.o
+
+4.5/main.i: 4.5/main.c.i
+
+.PHONY : 4.5/main.i
+
+# target to preprocess a source file
+4.5/main.c.i:
+	$(MAKE) -f CMakeFiles/4.5.dir/build.make CMakeFiles/4.5.dir/4.5/main.c.i
+.PHONY : 4.5/main.c.i
+
+4.5/main.s: 4.5/main.c.s
+
+.PHONY : 4.5/main.s
+
+# target to generate assembly for a file
+4.5/main.c.s:
+	$(MAKE) -f CMakeFiles/4.5.dir/build.make CMakeFiles/4.5.dir/4.5/main.c.s
+.PHONY : 4.5/main.c.s
+
+5.1/main.o: 5.1/main.c.o
+
+.PHONY : 5.1/main.o
+
+# target to build an object file
+5.1/main.c.o:
+	$(MAKE) -f CMakeFiles/5.1.dir/build.make CMakeFiles/5.1.dir/5.1/main.c.o
+.PHONY : 5.1/main.c.o
+
+5.1/main.i: 5.1/main.c.i
+
+.PHONY : 5.1/main.i
+
+# target to preprocess a source file
+5.1/main.c.i:
+	$(MAKE) -f CMakeFiles/5.1.dir/build.make CMakeFiles/5.1.dir/5.1/main.c.i
+.PHONY : 5.1/main.c.i
+
+5.1/main.s: 5.1/main.c.s
+
+.PHONY : 5.1/main.s
+
+# target to generate assembly for a file
+5.1/main.c.s:
+	$(MAKE) -f CMakeFiles/5.1.dir/build.make CMakeFiles/5.1.dir/5.1/main.c.s
+.PHONY : 5.1/main.c.s
+
+5.2/main.o: 5.2/main.c.o
+
+.PHONY : 5.2/main.o
+
+# target to build an object file
+5.2/main.c.o:
+	$(MAKE) -f CMakeFiles/5.2.dir/build.make CMakeFiles/5.2.dir/5.2/main.c.o
+.PHONY : 5.2/main.c.o
+
+5.2/main.i: 5.2/main.c.i
+
+.PHONY : 5.2/main.i
+
+# target to preprocess a source file
+5.2/main.c.i:
+	$(MAKE) -f CMakeFiles/5.2.dir/build.make CMakeFiles/5.2.dir/5.2/main.c.i
+.PHONY : 5.2/main.c.i
+
+5.2/main.s: 5.2/main.c.s
+
+.PHONY : 5.2/main.s
+
+# target to generate assembly for a file
+5.2/main.c.s:
+	$(MAKE) -f CMakeFiles/5.2.dir/build.make CMakeFiles/5.2.dir/5.2/main.c.s
+.PHONY : 5.2/main.c.s
+
+5.3/main.o: 5.3/main.c.o
+
+.PHONY : 5.3/main.o
+
+# target to build an object file
+5.3/main.c.o:
+	$(MAKE) -f CMakeFiles/5.3.dir/build.make CMakeFiles/5.3.dir/5.3/main.c.o
+.PHONY : 5.3/main.c.o
+
+5.3/main.i: 5.3/main.c.i
+
+.PHONY : 5.3/main.i
+
+# target to preprocess a source file
+5.3/main.c.i:
+	$(MAKE) -f CMakeFiles/5.3.dir/build.make CMakeFiles/5.3.dir/5.3/main.c.i
+.PHONY : 5.3/main.c.i
+
+5.3/main.s: 5.3/main.c.s
+
+.PHONY : 5.3/main.s
+
+# target to generate assembly for a file
+5.3/main.c.s:
+	$(MAKE) -f CMakeFiles/5.3.dir/build.make CMakeFiles/5.3.dir/5.3/main.c.s
+.PHONY : 5.3/main.c.s
+
 CamminiLabirinto/main.o: CamminiLabirinto/main.c.o
 
 .PHONY : CamminiLabirinto/main.o
@@ -682,6 +1015,33 @@ CamminiLabirinto/main.s: CamminiLabirinto/main.c.s
 CamminiLabirinto/main.c.s:
 	$(MAKE) -f CMakeFiles/CamminiLabirinto.dir/build.make CMakeFiles/CamminiLabirinto.dir/CamminiLabirinto/main.c.s
 .PHONY : CamminiLabirinto/main.c.s
+
+Gray/main.o: Gray/main.c.o
+
+.PHONY : Gray/main.o
+
+# target to build an object file
+Gray/main.c.o:
+	$(MAKE) -f CMakeFiles/Gray.dir/build.make CMakeFiles/Gray.dir/Gray/main.c.o
+.PHONY : Gray/main.c.o
+
+Gray/main.i: Gray/main.c.i
+
+.PHONY : Gray/main.i
+
+# target to preprocess a source file
+Gray/main.c.i:
+	$(MAKE) -f CMakeFiles/Gray.dir/build.make CMakeFiles/Gray.dir/Gray/main.c.i
+.PHONY : Gray/main.c.i
+
+Gray/main.s: Gray/main.c.s
+
+.PHONY : Gray/main.s
+
+# target to generate assembly for a file
+Gray/main.c.s:
+	$(MAKE) -f CMakeFiles/Gray.dir/build.make CMakeFiles/Gray.dir/Gray/main.c.s
+.PHONY : Gray/main.c.s
 
 ProveSorting/main.o: ProveSorting/main.c.o
 
@@ -716,10 +1076,19 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
+	@echo "... 5.3"
+	@echo "... 5.1"
+	@echo "... 4.3"
+	@echo "... 4.5"
+	@echo "... 4.2"
+	@echo "... 4.1"
 	@echo "... 1.1"
 	@echo "... 0.2"
 	@echo "... 0.1"
+	@echo "... 4.4"
 	@echo "... 2.1"
+	@echo "... 5.2"
 	@echo "... 0.4"
 	@echo "... 0.0_Prove"
 	@echo "... 1.2"
@@ -732,7 +1101,7 @@ help:
 	@echo "... 3.2"
 	@echo "... 2.2"
 	@echo "... ProveSorting"
-	@echo "... edit_cache"
+	@echo "... Gray"
 	@echo "... 0.0_Prove/main.o"
 	@echo "... 0.0_Prove/main.i"
 	@echo "... 0.0_Prove/main.s"
@@ -772,9 +1141,36 @@ help:
 	@echo "... 3.2/main.o"
 	@echo "... 3.2/main.i"
 	@echo "... 3.2/main.s"
+	@echo "... 4.1/main.o"
+	@echo "... 4.1/main.i"
+	@echo "... 4.1/main.s"
+	@echo "... 4.2/main.o"
+	@echo "... 4.2/main.i"
+	@echo "... 4.2/main.s"
+	@echo "... 4.3/main.o"
+	@echo "... 4.3/main.i"
+	@echo "... 4.3/main.s"
+	@echo "... 4.4/main.o"
+	@echo "... 4.4/main.i"
+	@echo "... 4.4/main.s"
+	@echo "... 4.5/main.o"
+	@echo "... 4.5/main.i"
+	@echo "... 4.5/main.s"
+	@echo "... 5.1/main.o"
+	@echo "... 5.1/main.i"
+	@echo "... 5.1/main.s"
+	@echo "... 5.2/main.o"
+	@echo "... 5.2/main.i"
+	@echo "... 5.2/main.s"
+	@echo "... 5.3/main.o"
+	@echo "... 5.3/main.i"
+	@echo "... 5.3/main.s"
 	@echo "... CamminiLabirinto/main.o"
 	@echo "... CamminiLabirinto/main.i"
 	@echo "... CamminiLabirinto/main.s"
+	@echo "... Gray/main.o"
+	@echo "... Gray/main.i"
+	@echo "... Gray/main.s"
 	@echo "... ProveSorting/main.o"
 	@echo "... ProveSorting/main.i"
 	@echo "... ProveSorting/main.s"
