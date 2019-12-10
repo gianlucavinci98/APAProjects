@@ -1,12 +1,13 @@
 //
-// Created by gianluca on 24/11/19.
+// Created by gianluca on 26/11/19.
 //
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 #define STR 20
 #define MAX 20
-#define NMENU 8
+#define NMENU 9
 
 typedef enum {VUOTA, DATA, CODICE, PARTENZA, ARRIVO} key;
 
@@ -14,8 +15,8 @@ typedef struct {int g,m,a;} date;
 typedef struct {int h,m,s;} time;
 typedef struct
 {
-    char cod[STR], part[STR], dest[STR];
-    char dataStr[STR], oraPStr[STR], oraAStr[STR];
+    char *cod, *part, *dest;
+    char *dataStr, *oraPStr, *oraAStr;
     time oraA, oraP;
     date data;
     int ritardo;
@@ -63,10 +64,10 @@ void insertionSort(voce *vet[], int nvoci, key k) {
         vet[j + 1] = x;
     }
 }
-int leggiLog(voce log[], vetOrd *vet)
+int leggiLog(voce log[], vetOrd *vet, char *file)
 {
     FILE *fp;
-    fp = fopen("log.txt", "r");
+    fp = fopen(file, "r");
     int nvoci;
     fscanf(fp,"%d", &nvoci);
     for (int i = 0; i < nvoci; i++) {
@@ -82,7 +83,6 @@ int leggiLog(voce log[], vetOrd *vet)
         (*vet).ordD[i]=&log[i];
         (*vet).ordC[i]=&log[i];
     }
-
     insertionSort((*vet).ordP, nvoci, PARTENZA);
     insertionSort((*vet).ordA, nvoci, ARRIVO);
     insertionSort((*vet).ordD, nvoci, DATA);
@@ -108,32 +108,6 @@ void stampaMenu(char **menu)
     }
     printf("Scelta: ");
 }
-/*key insertionSortNOPUNT(voce *log, int nvoci, key k)
-{
-    for (int i = 1; i < nvoci; i++) {
-        int j = i-1;
-        voce x = log[i];
-        while (j>=0 && itemLT(x, log[j], k))
-        {
-            log[j+1] = log[j];
-            j--;
-        }
-        log[j+1]=x;
-    }
-    return k;
-}*/
-/*void ricercaLin(voce *log, int nvoci, char* string)
-{
-    int trovato = 0;
-    for (int i = 0; i < nvoci; i++) {
-        if (strstr(log[i].part, string) != NULL)
-        {
-            stampaVoce(log[i], stdout);
-            trovato = 1;
-        }
-    }
-    if(!trovato) printf("Nessun valore trovato\n");
-}*/
 void ricercaBin(voce *vet[], int nvoci, char* string)
 {
     int trovato = 0;
@@ -169,13 +143,36 @@ void ricercaBin(voce *vet[], int nvoci, char* string)
     }
     else printf("Valore non trovato\n");
 }
+void libera(voce *log, vetOrd *vet, int nvoci) {
+    int i;
+    if (vet == NULL) return;
+    if (vet->ordA) free(vet->ordA);
+    if (vet->ordC) free(vet->ordC);
+    if (vet->ordD) free(vet->ordD);
+    if (vet->ordP) free(vet->ordP);
+
+    if (log)
+    {
+        for(i=0;i<nvoci;i++)
+        {
+            if (log[i].cod) free(log[i].cod);
+            if (log[i].part) free(log[i].part);
+            if (log[i].dest) free(log[i].dest);
+            if (log[i].dataStr) free(log[i].dataStr);
+            if (log[i].oraPStr) free(log[i].oraPStr);
+            if (log[i].oraAStr) free(log[i].oraAStr);
+        }
+        free(log);
+    }
+    free(vet);
+}
 
 int main()
 {
-    voce log[MAX];
+    //voce log[MAX];
+    voce log = calloc(tab->n_voci, sizeof(voce_t));
     vetOrd vet;
     int nvoci, scelta;
-    //key k = VUOTA;
     char file[STR];
     char *menu[] = {
             "Stampa a video",
@@ -185,10 +182,11 @@ int main()
             "Ordina per stazione di partenza",
             "Ordina per stazione di arrivo",
             "Ricerca per stazione di partenza",
+            "Leggi File"
             "Esci"
     };
 
-    nvoci = leggiLog(log, &vet);
+    nvoci = leggiLog(log, &vet, "log.txt");
 
     do
     {
@@ -232,11 +230,13 @@ int main()
                 break;
             case 7:
                 break;
+            case 8:
+                break;
             default:
                 printf("Comando non valido\n");
                 break;
         }
-    }while (scelta!=7);
+    }while (scelta!=8);
 
     return 0;
 }

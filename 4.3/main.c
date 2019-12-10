@@ -1,5 +1,5 @@
 //
-// Created by gianluca on 25/11/19.
+// Created by gianluca on 24/11/19.
 //
 #include <stdio.h>
 #include <string.h>
@@ -54,8 +54,8 @@ int compare(char *str, char* reg)
 
 int main()
 {
-    char testo[MAX] = "pappa toto";
-    char reg[MAX] = "foto";
+    char testo[MAX] = "puru toto ciao";
+    char reg[MAX] = "[abtcd]oto";
 
     char *ris = cercaReg(testo, reg);
     printf("%.*s", (int) strlen(testo), ris);

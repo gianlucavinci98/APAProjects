@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 6.2
+
+# Build rule for target.
+6.2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 6.2
+.PHONY : 6.2
+
+# fast build rule for target.
+6.2/fast:
+	$(MAKE) -f CMakeFiles/6.2.dir/build.make CMakeFiles/6.2.dir/build
+.PHONY : 6.2/fast
+
+#=============================================================================
 # Target rules for targets named 5.3
 
 # Build rule for target.
@@ -122,6 +135,19 @@ depend:
 5.3/fast:
 	$(MAKE) -f CMakeFiles/5.3.dir/build.make CMakeFiles/5.3.dir/build
 .PHONY : 5.3/fast
+
+#=============================================================================
+# Target rules for targets named 5.3Aggiustare
+
+# Build rule for target.
+5.3Aggiustare: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 5.3Aggiustare
+.PHONY : 5.3Aggiustare
+
+# fast build rule for target.
+5.3Aggiustare/fast:
+	$(MAKE) -f CMakeFiles/5.3Aggiustare.dir/build.make CMakeFiles/5.3Aggiustare.dir/build
+.PHONY : 5.3Aggiustare/fast
 
 #=============================================================================
 # Target rules for targets named 5.1
@@ -395,6 +421,19 @@ CamminiLabirinto/fast:
 2.2/fast:
 	$(MAKE) -f CMakeFiles/2.2.dir/build.make CMakeFiles/2.2.dir/build
 .PHONY : 2.2/fast
+
+#=============================================================================
+# Target rules for targets named 6.1
+
+# Build rule for target.
+6.1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 6.1
+.PHONY : 6.1
+
+# fast build rule for target.
+6.1/fast:
+	$(MAKE) -f CMakeFiles/6.1.dir/build.make CMakeFiles/6.1.dir/build
+.PHONY : 6.1/fast
 
 #=============================================================================
 # Target rules for targets named ProveSorting
@@ -989,6 +1028,87 @@ Gray/fast:
 	$(MAKE) -f CMakeFiles/5.3.dir/build.make CMakeFiles/5.3.dir/5.3/main.c.s
 .PHONY : 5.3/main.c.s
 
+5.3Aggiustare/main.o: 5.3Aggiustare/main.c.o
+
+.PHONY : 5.3Aggiustare/main.o
+
+# target to build an object file
+5.3Aggiustare/main.c.o:
+	$(MAKE) -f CMakeFiles/5.3Aggiustare.dir/build.make CMakeFiles/5.3Aggiustare.dir/5.3Aggiustare/main.c.o
+.PHONY : 5.3Aggiustare/main.c.o
+
+5.3Aggiustare/main.i: 5.3Aggiustare/main.c.i
+
+.PHONY : 5.3Aggiustare/main.i
+
+# target to preprocess a source file
+5.3Aggiustare/main.c.i:
+	$(MAKE) -f CMakeFiles/5.3Aggiustare.dir/build.make CMakeFiles/5.3Aggiustare.dir/5.3Aggiustare/main.c.i
+.PHONY : 5.3Aggiustare/main.c.i
+
+5.3Aggiustare/main.s: 5.3Aggiustare/main.c.s
+
+.PHONY : 5.3Aggiustare/main.s
+
+# target to generate assembly for a file
+5.3Aggiustare/main.c.s:
+	$(MAKE) -f CMakeFiles/5.3Aggiustare.dir/build.make CMakeFiles/5.3Aggiustare.dir/5.3Aggiustare/main.c.s
+.PHONY : 5.3Aggiustare/main.c.s
+
+6.1/main.o: 6.1/main.c.o
+
+.PHONY : 6.1/main.o
+
+# target to build an object file
+6.1/main.c.o:
+	$(MAKE) -f CMakeFiles/6.1.dir/build.make CMakeFiles/6.1.dir/6.1/main.c.o
+.PHONY : 6.1/main.c.o
+
+6.1/main.i: 6.1/main.c.i
+
+.PHONY : 6.1/main.i
+
+# target to preprocess a source file
+6.1/main.c.i:
+	$(MAKE) -f CMakeFiles/6.1.dir/build.make CMakeFiles/6.1.dir/6.1/main.c.i
+.PHONY : 6.1/main.c.i
+
+6.1/main.s: 6.1/main.c.s
+
+.PHONY : 6.1/main.s
+
+# target to generate assembly for a file
+6.1/main.c.s:
+	$(MAKE) -f CMakeFiles/6.1.dir/build.make CMakeFiles/6.1.dir/6.1/main.c.s
+.PHONY : 6.1/main.c.s
+
+6.2/main.o: 6.2/main.c.o
+
+.PHONY : 6.2/main.o
+
+# target to build an object file
+6.2/main.c.o:
+	$(MAKE) -f CMakeFiles/6.2.dir/build.make CMakeFiles/6.2.dir/6.2/main.c.o
+.PHONY : 6.2/main.c.o
+
+6.2/main.i: 6.2/main.c.i
+
+.PHONY : 6.2/main.i
+
+# target to preprocess a source file
+6.2/main.c.i:
+	$(MAKE) -f CMakeFiles/6.2.dir/build.make CMakeFiles/6.2.dir/6.2/main.c.i
+.PHONY : 6.2/main.c.i
+
+6.2/main.s: 6.2/main.c.s
+
+.PHONY : 6.2/main.s
+
+# target to generate assembly for a file
+6.2/main.c.s:
+	$(MAKE) -f CMakeFiles/6.2.dir/build.make CMakeFiles/6.2.dir/6.2/main.c.s
+.PHONY : 6.2/main.c.s
+
 CamminiLabirinto/main.o: CamminiLabirinto/main.c.o
 
 .PHONY : CamminiLabirinto/main.o
@@ -1077,7 +1197,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... 6.2"
 	@echo "... 5.3"
+	@echo "... 5.3Aggiustare"
 	@echo "... 5.1"
 	@echo "... 4.3"
 	@echo "... 4.5"
@@ -1100,6 +1222,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 3.2"
 	@echo "... 2.2"
+	@echo "... 6.1"
 	@echo "... ProveSorting"
 	@echo "... Gray"
 	@echo "... 0.0_Prove/main.o"
@@ -1165,6 +1288,15 @@ help:
 	@echo "... 5.3/main.o"
 	@echo "... 5.3/main.i"
 	@echo "... 5.3/main.s"
+	@echo "... 5.3Aggiustare/main.o"
+	@echo "... 5.3Aggiustare/main.i"
+	@echo "... 5.3Aggiustare/main.s"
+	@echo "... 6.1/main.o"
+	@echo "... 6.1/main.i"
+	@echo "... 6.1/main.s"
+	@echo "... 6.2/main.o"
+	@echo "... 6.2/main.i"
+	@echo "... 6.2/main.s"
 	@echo "... CamminiLabirinto/main.o"
 	@echo "... CamminiLabirinto/main.i"
 	@echo "... CamminiLabirinto/main.s"

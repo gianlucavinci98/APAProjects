@@ -1,5 +1,7 @@
 /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles/6.2.dir
 /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles/5.3.dir
+/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles/5.3Aggiustare.dir
 /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles/5.1.dir
 /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles/4.3.dir
 /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles/4.5.dir
@@ -22,5 +24,6 @@
 /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles/3.2.dir
 /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles/2.2.dir
+/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles/6.1.dir
 /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles/ProveSorting.dir
 /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles/Gray.dir

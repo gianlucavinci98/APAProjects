@@ -1,5 +1,5 @@
 //
-// Created by gianluca on 26/11/19.
+// Created by gianluca on 24/11/19.
 //
 #include <stdio.h>
 #include <string.h>
@@ -156,7 +156,7 @@ int main()
             "Stampa a video",
             "Stampa su file",
             "Ordina per data",
-            "Ordina per codice",
+            "Ordina per cod",
             "Ordina per stazione di partenza",
             "Ordina per stazione di arrivo",
             "Ricerca per stazione di partenza",

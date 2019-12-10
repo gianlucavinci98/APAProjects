@@ -1,5 +1,5 @@
 //
-// Created by gianluca on 24/11/19.
+// Created by gianluca on 23/11/19.
 //
 #include <stdio.h>
 #define MAXD 7
@@ -22,7 +22,7 @@ int maj(int *v, int n)
 
     //Calcolo maggioritario di sinistra
     int ms = maj(v, n/2); // v contiente l'indirizzo prima cella vettore originale (prima cella vettore sx)
-    int md = maj(v+(n/2), n/2); //v+(n/2) contiene l'ndirizzo della riga successiva a quella di mezzo (prima cella vettore dx)
+    int md = maj(v+(n/2), n/2); //v+(n/2) contiene l'ndirizzo della *cellam successiva a quella di mezzo (prima cella vettore dx)
 
     if (ms==-1 && md==-1) return -1; //se entrambi i vettori non hanno l'elemento è inutile cercare
     if (ms == md) return ms; //se i valori sono uguali ovviamente l'elemento sarà un maj
