@@ -53,62 +53,74 @@ CMAKE_BINARY_DIR = /home/gianluca/CLionProjects/APAProjects/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/6.2.dir/all
-all: CMakeFiles/5.3.dir/all
-all: CMakeFiles/5.3Aggiustare.dir/all
-all: CMakeFiles/5.1.dir/all
+all: CMakeFiles/7.1.dir/all
+all: CMakeFiles/Sudoku.dir/all
+all: CMakeFiles/ListaDiStringhe.dir/all
+all: CMakeFiles/AritmeticaVerticale.dir/all
+all: CMakeFiles/6.2Mio.dir/all
+all: CMakeFiles/5.3Mio.dir/all
+all: CMakeFiles/Triangolo_Somme.dir/all
 all: CMakeFiles/4.3.dir/all
+all: CMakeFiles/NumeriBinari.dir/all
 all: CMakeFiles/4.5.dir/all
 all: CMakeFiles/4.2.dir/all
 all: CMakeFiles/4.1.dir/all
 all: CMakeFiles/1.1.dir/all
+all: CMakeFiles/EquilibrioFrecce.dir/all
 all: CMakeFiles/0.2.dir/all
 all: CMakeFiles/0.1.dir/all
+all: CMakeFiles/5.1Mio.dir/all
 all: CMakeFiles/4.4.dir/all
 all: CMakeFiles/2.1.dir/all
-all: CMakeFiles/5.2.dir/all
 all: CMakeFiles/0.4.dir/all
 all: CMakeFiles/0.0_Prove.dir/all
+all: CMakeFiles/6.1Mio.dir/all
 all: CMakeFiles/1.2.dir/all
 all: CMakeFiles/1.3.dir/all
 all: CMakeFiles/CamminiLabirinto.dir/all
 all: CMakeFiles/0.3.dir/all
 all: CMakeFiles/2.3.dir/all
+all: CMakeFiles/5.2Mio.dir/all
 all: CMakeFiles/3.1.dir/all
 all: CMakeFiles/3.2.dir/all
 all: CMakeFiles/2.2.dir/all
-all: CMakeFiles/6.1.dir/all
 all: CMakeFiles/ProveSorting.dir/all
 all: CMakeFiles/Gray.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/6.2.dir/clean
-clean: CMakeFiles/5.3.dir/clean
-clean: CMakeFiles/5.3Aggiustare.dir/clean
-clean: CMakeFiles/5.1.dir/clean
+clean: CMakeFiles/7.1.dir/clean
+clean: CMakeFiles/Sudoku.dir/clean
+clean: CMakeFiles/ListaDiStringhe.dir/clean
+clean: CMakeFiles/AritmeticaVerticale.dir/clean
+clean: CMakeFiles/6.2Mio.dir/clean
+clean: CMakeFiles/5.3Mio.dir/clean
+clean: CMakeFiles/Triangolo_Somme.dir/clean
 clean: CMakeFiles/4.3.dir/clean
+clean: CMakeFiles/NumeriBinari.dir/clean
 clean: CMakeFiles/4.5.dir/clean
 clean: CMakeFiles/4.2.dir/clean
 clean: CMakeFiles/4.1.dir/clean
 clean: CMakeFiles/1.1.dir/clean
+clean: CMakeFiles/EquilibrioFrecce.dir/clean
 clean: CMakeFiles/0.2.dir/clean
 clean: CMakeFiles/0.1.dir/clean
+clean: CMakeFiles/5.1Mio.dir/clean
 clean: CMakeFiles/4.4.dir/clean
 clean: CMakeFiles/2.1.dir/clean
-clean: CMakeFiles/5.2.dir/clean
 clean: CMakeFiles/0.4.dir/clean
 clean: CMakeFiles/0.0_Prove.dir/clean
+clean: CMakeFiles/6.1Mio.dir/clean
 clean: CMakeFiles/1.2.dir/clean
 clean: CMakeFiles/1.3.dir/clean
 clean: CMakeFiles/CamminiLabirinto.dir/clean
 clean: CMakeFiles/0.3.dir/clean
 clean: CMakeFiles/2.3.dir/clean
+clean: CMakeFiles/5.2Mio.dir/clean
 clean: CMakeFiles/3.1.dir/clean
 clean: CMakeFiles/3.2.dir/clean
 clean: CMakeFiles/2.2.dir/clean
-clean: CMakeFiles/6.1.dir/clean
 clean: CMakeFiles/ProveSorting.dir/clean
 clean: CMakeFiles/Gray.dir/clean
 
@@ -120,112 +132,193 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/6.2.dir
+# Target rules for target CMakeFiles/7.1.dir
 
 # All Build rule for target.
-CMakeFiles/6.2.dir/all:
-	$(MAKE) -f CMakeFiles/6.2.dir/build.make CMakeFiles/6.2.dir/depend
-	$(MAKE) -f CMakeFiles/6.2.dir/build.make CMakeFiles/6.2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target 6.2"
-.PHONY : CMakeFiles/6.2.dir/all
+CMakeFiles/7.1.dir/all:
+	$(MAKE) -f CMakeFiles/7.1.dir/build.make CMakeFiles/7.1.dir/depend
+	$(MAKE) -f CMakeFiles/7.1.dir/build.make CMakeFiles/7.1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target 7.1"
+.PHONY : CMakeFiles/7.1.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/6.2.dir/rule: cmake_check_build_system
+CMakeFiles/7.1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/6.2.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/7.1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/6.2.dir/rule
+.PHONY : CMakeFiles/7.1.dir/rule
 
 # Convenience name for target.
-6.2: CMakeFiles/6.2.dir/rule
+7.1: CMakeFiles/7.1.dir/rule
 
-.PHONY : 6.2
+.PHONY : 7.1
 
 # clean rule for target.
-CMakeFiles/6.2.dir/clean:
-	$(MAKE) -f CMakeFiles/6.2.dir/build.make CMakeFiles/6.2.dir/clean
-.PHONY : CMakeFiles/6.2.dir/clean
+CMakeFiles/7.1.dir/clean:
+	$(MAKE) -f CMakeFiles/7.1.dir/build.make CMakeFiles/7.1.dir/clean
+.PHONY : CMakeFiles/7.1.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/5.3.dir
+# Target rules for target CMakeFiles/Sudoku.dir
 
 # All Build rule for target.
-CMakeFiles/5.3.dir/all:
-	$(MAKE) -f CMakeFiles/5.3.dir/build.make CMakeFiles/5.3.dir/depend
-	$(MAKE) -f CMakeFiles/5.3.dir/build.make CMakeFiles/5.3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target 5.3"
-.PHONY : CMakeFiles/5.3.dir/all
+CMakeFiles/Sudoku.dir/all:
+	$(MAKE) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/depend
+	$(MAKE) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target Sudoku"
+.PHONY : CMakeFiles/Sudoku.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/5.3.dir/rule: cmake_check_build_system
+CMakeFiles/Sudoku.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/5.3.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Sudoku.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/5.3.dir/rule
+.PHONY : CMakeFiles/Sudoku.dir/rule
 
 # Convenience name for target.
-5.3: CMakeFiles/5.3.dir/rule
+Sudoku: CMakeFiles/Sudoku.dir/rule
 
-.PHONY : 5.3
+.PHONY : Sudoku
 
 # clean rule for target.
-CMakeFiles/5.3.dir/clean:
-	$(MAKE) -f CMakeFiles/5.3.dir/build.make CMakeFiles/5.3.dir/clean
-.PHONY : CMakeFiles/5.3.dir/clean
+CMakeFiles/Sudoku.dir/clean:
+	$(MAKE) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/clean
+.PHONY : CMakeFiles/Sudoku.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/5.3Aggiustare.dir
+# Target rules for target CMakeFiles/ListaDiStringhe.dir
 
 # All Build rule for target.
-CMakeFiles/5.3Aggiustare.dir/all:
-	$(MAKE) -f CMakeFiles/5.3Aggiustare.dir/build.make CMakeFiles/5.3Aggiustare.dir/depend
-	$(MAKE) -f CMakeFiles/5.3Aggiustare.dir/build.make CMakeFiles/5.3Aggiustare.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target 5.3Aggiustare"
-.PHONY : CMakeFiles/5.3Aggiustare.dir/all
+CMakeFiles/ListaDiStringhe.dir/all:
+	$(MAKE) -f CMakeFiles/ListaDiStringhe.dir/build.make CMakeFiles/ListaDiStringhe.dir/depend
+	$(MAKE) -f CMakeFiles/ListaDiStringhe.dir/build.make CMakeFiles/ListaDiStringhe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target ListaDiStringhe"
+.PHONY : CMakeFiles/ListaDiStringhe.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/5.3Aggiustare.dir/rule: cmake_check_build_system
+CMakeFiles/ListaDiStringhe.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/5.3Aggiustare.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ListaDiStringhe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/5.3Aggiustare.dir/rule
+.PHONY : CMakeFiles/ListaDiStringhe.dir/rule
 
 # Convenience name for target.
-5.3Aggiustare: CMakeFiles/5.3Aggiustare.dir/rule
+ListaDiStringhe: CMakeFiles/ListaDiStringhe.dir/rule
 
-.PHONY : 5.3Aggiustare
+.PHONY : ListaDiStringhe
 
 # clean rule for target.
-CMakeFiles/5.3Aggiustare.dir/clean:
-	$(MAKE) -f CMakeFiles/5.3Aggiustare.dir/build.make CMakeFiles/5.3Aggiustare.dir/clean
-.PHONY : CMakeFiles/5.3Aggiustare.dir/clean
+CMakeFiles/ListaDiStringhe.dir/clean:
+	$(MAKE) -f CMakeFiles/ListaDiStringhe.dir/build.make CMakeFiles/ListaDiStringhe.dir/clean
+.PHONY : CMakeFiles/ListaDiStringhe.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/5.1.dir
+# Target rules for target CMakeFiles/AritmeticaVerticale.dir
 
 # All Build rule for target.
-CMakeFiles/5.1.dir/all:
-	$(MAKE) -f CMakeFiles/5.1.dir/build.make CMakeFiles/5.1.dir/depend
-	$(MAKE) -f CMakeFiles/5.1.dir/build.make CMakeFiles/5.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target 5.1"
-.PHONY : CMakeFiles/5.1.dir/all
+CMakeFiles/AritmeticaVerticale.dir/all:
+	$(MAKE) -f CMakeFiles/AritmeticaVerticale.dir/build.make CMakeFiles/AritmeticaVerticale.dir/depend
+	$(MAKE) -f CMakeFiles/AritmeticaVerticale.dir/build.make CMakeFiles/AritmeticaVerticale.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target AritmeticaVerticale"
+.PHONY : CMakeFiles/AritmeticaVerticale.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/5.1.dir/rule: cmake_check_build_system
+CMakeFiles/AritmeticaVerticale.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/5.1.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AritmeticaVerticale.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/5.1.dir/rule
+.PHONY : CMakeFiles/AritmeticaVerticale.dir/rule
 
 # Convenience name for target.
-5.1: CMakeFiles/5.1.dir/rule
+AritmeticaVerticale: CMakeFiles/AritmeticaVerticale.dir/rule
 
-.PHONY : 5.1
+.PHONY : AritmeticaVerticale
 
 # clean rule for target.
-CMakeFiles/5.1.dir/clean:
-	$(MAKE) -f CMakeFiles/5.1.dir/build.make CMakeFiles/5.1.dir/clean
-.PHONY : CMakeFiles/5.1.dir/clean
+CMakeFiles/AritmeticaVerticale.dir/clean:
+	$(MAKE) -f CMakeFiles/AritmeticaVerticale.dir/build.make CMakeFiles/AritmeticaVerticale.dir/clean
+.PHONY : CMakeFiles/AritmeticaVerticale.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/6.2Mio.dir
+
+# All Build rule for target.
+CMakeFiles/6.2Mio.dir/all:
+	$(MAKE) -f CMakeFiles/6.2Mio.dir/build.make CMakeFiles/6.2Mio.dir/depend
+	$(MAKE) -f CMakeFiles/6.2Mio.dir/build.make CMakeFiles/6.2Mio.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target 6.2Mio"
+.PHONY : CMakeFiles/6.2Mio.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/6.2Mio.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/6.2Mio.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/6.2Mio.dir/rule
+
+# Convenience name for target.
+6.2Mio: CMakeFiles/6.2Mio.dir/rule
+
+.PHONY : 6.2Mio
+
+# clean rule for target.
+CMakeFiles/6.2Mio.dir/clean:
+	$(MAKE) -f CMakeFiles/6.2Mio.dir/build.make CMakeFiles/6.2Mio.dir/clean
+.PHONY : CMakeFiles/6.2Mio.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/5.3Mio.dir
+
+# All Build rule for target.
+CMakeFiles/5.3Mio.dir/all:
+	$(MAKE) -f CMakeFiles/5.3Mio.dir/build.make CMakeFiles/5.3Mio.dir/depend
+	$(MAKE) -f CMakeFiles/5.3Mio.dir/build.make CMakeFiles/5.3Mio.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target 5.3Mio"
+.PHONY : CMakeFiles/5.3Mio.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/5.3Mio.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/5.3Mio.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/5.3Mio.dir/rule
+
+# Convenience name for target.
+5.3Mio: CMakeFiles/5.3Mio.dir/rule
+
+.PHONY : 5.3Mio
+
+# clean rule for target.
+CMakeFiles/5.3Mio.dir/clean:
+	$(MAKE) -f CMakeFiles/5.3Mio.dir/build.make CMakeFiles/5.3Mio.dir/clean
+.PHONY : CMakeFiles/5.3Mio.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Triangolo_Somme.dir
+
+# All Build rule for target.
+CMakeFiles/Triangolo_Somme.dir/all:
+	$(MAKE) -f CMakeFiles/Triangolo_Somme.dir/build.make CMakeFiles/Triangolo_Somme.dir/depend
+	$(MAKE) -f CMakeFiles/Triangolo_Somme.dir/build.make CMakeFiles/Triangolo_Somme.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target Triangolo_Somme"
+.PHONY : CMakeFiles/Triangolo_Somme.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Triangolo_Somme.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Triangolo_Somme.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Triangolo_Somme.dir/rule
+
+# Convenience name for target.
+Triangolo_Somme: CMakeFiles/Triangolo_Somme.dir/rule
+
+.PHONY : Triangolo_Somme
+
+# clean rule for target.
+CMakeFiles/Triangolo_Somme.dir/clean:
+	$(MAKE) -f CMakeFiles/Triangolo_Somme.dir/build.make CMakeFiles/Triangolo_Somme.dir/clean
+.PHONY : CMakeFiles/Triangolo_Somme.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/4.3.dir
@@ -253,6 +346,33 @@ CMakeFiles/4.3.dir/rule: cmake_check_build_system
 CMakeFiles/4.3.dir/clean:
 	$(MAKE) -f CMakeFiles/4.3.dir/build.make CMakeFiles/4.3.dir/clean
 .PHONY : CMakeFiles/4.3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/NumeriBinari.dir
+
+# All Build rule for target.
+CMakeFiles/NumeriBinari.dir/all:
+	$(MAKE) -f CMakeFiles/NumeriBinari.dir/build.make CMakeFiles/NumeriBinari.dir/depend
+	$(MAKE) -f CMakeFiles/NumeriBinari.dir/build.make CMakeFiles/NumeriBinari.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target NumeriBinari"
+.PHONY : CMakeFiles/NumeriBinari.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/NumeriBinari.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/NumeriBinari.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/NumeriBinari.dir/rule
+
+# Convenience name for target.
+NumeriBinari: CMakeFiles/NumeriBinari.dir/rule
+
+.PHONY : NumeriBinari
+
+# clean rule for target.
+CMakeFiles/NumeriBinari.dir/clean:
+	$(MAKE) -f CMakeFiles/NumeriBinari.dir/build.make CMakeFiles/NumeriBinari.dir/clean
+.PHONY : CMakeFiles/NumeriBinari.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/4.5.dir
@@ -363,6 +483,33 @@ CMakeFiles/1.1.dir/clean:
 .PHONY : CMakeFiles/1.1.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/EquilibrioFrecce.dir
+
+# All Build rule for target.
+CMakeFiles/EquilibrioFrecce.dir/all:
+	$(MAKE) -f CMakeFiles/EquilibrioFrecce.dir/build.make CMakeFiles/EquilibrioFrecce.dir/depend
+	$(MAKE) -f CMakeFiles/EquilibrioFrecce.dir/build.make CMakeFiles/EquilibrioFrecce.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target EquilibrioFrecce"
+.PHONY : CMakeFiles/EquilibrioFrecce.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/EquilibrioFrecce.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/EquilibrioFrecce.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/EquilibrioFrecce.dir/rule
+
+# Convenience name for target.
+EquilibrioFrecce: CMakeFiles/EquilibrioFrecce.dir/rule
+
+.PHONY : EquilibrioFrecce
+
+# clean rule for target.
+CMakeFiles/EquilibrioFrecce.dir/clean:
+	$(MAKE) -f CMakeFiles/EquilibrioFrecce.dir/build.make CMakeFiles/EquilibrioFrecce.dir/clean
+.PHONY : CMakeFiles/EquilibrioFrecce.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/0.2.dir
 
 # All Build rule for target.
@@ -415,6 +562,33 @@ CMakeFiles/0.1.dir/rule: cmake_check_build_system
 CMakeFiles/0.1.dir/clean:
 	$(MAKE) -f CMakeFiles/0.1.dir/build.make CMakeFiles/0.1.dir/clean
 .PHONY : CMakeFiles/0.1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/5.1Mio.dir
+
+# All Build rule for target.
+CMakeFiles/5.1Mio.dir/all:
+	$(MAKE) -f CMakeFiles/5.1Mio.dir/build.make CMakeFiles/5.1Mio.dir/depend
+	$(MAKE) -f CMakeFiles/5.1Mio.dir/build.make CMakeFiles/5.1Mio.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target 5.1Mio"
+.PHONY : CMakeFiles/5.1Mio.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/5.1Mio.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/5.1Mio.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/5.1Mio.dir/rule
+
+# Convenience name for target.
+5.1Mio: CMakeFiles/5.1Mio.dir/rule
+
+.PHONY : 5.1Mio
+
+# clean rule for target.
+CMakeFiles/5.1Mio.dir/clean:
+	$(MAKE) -f CMakeFiles/5.1Mio.dir/build.make CMakeFiles/5.1Mio.dir/clean
+.PHONY : CMakeFiles/5.1Mio.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/4.4.dir
@@ -471,33 +645,6 @@ CMakeFiles/2.1.dir/clean:
 .PHONY : CMakeFiles/2.1.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/5.2.dir
-
-# All Build rule for target.
-CMakeFiles/5.2.dir/all:
-	$(MAKE) -f CMakeFiles/5.2.dir/build.make CMakeFiles/5.2.dir/depend
-	$(MAKE) -f CMakeFiles/5.2.dir/build.make CMakeFiles/5.2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target 5.2"
-.PHONY : CMakeFiles/5.2.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/5.2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/5.2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/5.2.dir/rule
-
-# Convenience name for target.
-5.2: CMakeFiles/5.2.dir/rule
-
-.PHONY : 5.2
-
-# clean rule for target.
-CMakeFiles/5.2.dir/clean:
-	$(MAKE) -f CMakeFiles/5.2.dir/build.make CMakeFiles/5.2.dir/clean
-.PHONY : CMakeFiles/5.2.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/0.4.dir
 
 # All Build rule for target.
@@ -550,6 +697,33 @@ CMakeFiles/0.0_Prove.dir/rule: cmake_check_build_system
 CMakeFiles/0.0_Prove.dir/clean:
 	$(MAKE) -f CMakeFiles/0.0_Prove.dir/build.make CMakeFiles/0.0_Prove.dir/clean
 .PHONY : CMakeFiles/0.0_Prove.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/6.1Mio.dir
+
+# All Build rule for target.
+CMakeFiles/6.1Mio.dir/all:
+	$(MAKE) -f CMakeFiles/6.1Mio.dir/build.make CMakeFiles/6.1Mio.dir/depend
+	$(MAKE) -f CMakeFiles/6.1Mio.dir/build.make CMakeFiles/6.1Mio.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target 6.1Mio"
+.PHONY : CMakeFiles/6.1Mio.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/6.1Mio.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/6.1Mio.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/6.1Mio.dir/rule
+
+# Convenience name for target.
+6.1Mio: CMakeFiles/6.1Mio.dir/rule
+
+.PHONY : 6.1Mio
+
+# clean rule for target.
+CMakeFiles/6.1Mio.dir/clean:
+	$(MAKE) -f CMakeFiles/6.1Mio.dir/build.make CMakeFiles/6.1Mio.dir/clean
+.PHONY : CMakeFiles/6.1Mio.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/1.2.dir
@@ -612,7 +786,7 @@ CMakeFiles/1.3.dir/clean:
 CMakeFiles/CamminiLabirinto.dir/all:
 	$(MAKE) -f CMakeFiles/CamminiLabirinto.dir/build.make CMakeFiles/CamminiLabirinto.dir/depend
 	$(MAKE) -f CMakeFiles/CamminiLabirinto.dir/build.make CMakeFiles/CamminiLabirinto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target CamminiLabirinto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target CamminiLabirinto"
 .PHONY : CMakeFiles/CamminiLabirinto.dir/all
 
 # Build rule for subdir invocation for target.
@@ -685,6 +859,33 @@ CMakeFiles/2.3.dir/rule: cmake_check_build_system
 CMakeFiles/2.3.dir/clean:
 	$(MAKE) -f CMakeFiles/2.3.dir/build.make CMakeFiles/2.3.dir/clean
 .PHONY : CMakeFiles/2.3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/5.2Mio.dir
+
+# All Build rule for target.
+CMakeFiles/5.2Mio.dir/all:
+	$(MAKE) -f CMakeFiles/5.2Mio.dir/build.make CMakeFiles/5.2Mio.dir/depend
+	$(MAKE) -f CMakeFiles/5.2Mio.dir/build.make CMakeFiles/5.2Mio.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target 5.2Mio"
+.PHONY : CMakeFiles/5.2Mio.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/5.2Mio.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/5.2Mio.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/5.2Mio.dir/rule
+
+# Convenience name for target.
+5.2Mio: CMakeFiles/5.2Mio.dir/rule
+
+.PHONY : 5.2Mio
+
+# clean rule for target.
+CMakeFiles/5.2Mio.dir/clean:
+	$(MAKE) -f CMakeFiles/5.2Mio.dir/build.make CMakeFiles/5.2Mio.dir/clean
+.PHONY : CMakeFiles/5.2Mio.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/3.1.dir
@@ -768,40 +969,13 @@ CMakeFiles/2.2.dir/clean:
 .PHONY : CMakeFiles/2.2.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/6.1.dir
-
-# All Build rule for target.
-CMakeFiles/6.1.dir/all:
-	$(MAKE) -f CMakeFiles/6.1.dir/build.make CMakeFiles/6.1.dir/depend
-	$(MAKE) -f CMakeFiles/6.1.dir/build.make CMakeFiles/6.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target 6.1"
-.PHONY : CMakeFiles/6.1.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/6.1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/6.1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/6.1.dir/rule
-
-# Convenience name for target.
-6.1: CMakeFiles/6.1.dir/rule
-
-.PHONY : 6.1
-
-# clean rule for target.
-CMakeFiles/6.1.dir/clean:
-	$(MAKE) -f CMakeFiles/6.1.dir/build.make CMakeFiles/6.1.dir/clean
-.PHONY : CMakeFiles/6.1.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/ProveSorting.dir
 
 # All Build rule for target.
 CMakeFiles/ProveSorting.dir/all:
 	$(MAKE) -f CMakeFiles/ProveSorting.dir/build.make CMakeFiles/ProveSorting.dir/depend
 	$(MAKE) -f CMakeFiles/ProveSorting.dir/build.make CMakeFiles/ProveSorting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target ProveSorting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target ProveSorting"
 .PHONY : CMakeFiles/ProveSorting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -828,7 +1002,7 @@ CMakeFiles/ProveSorting.dir/clean:
 CMakeFiles/Gray.dir/all:
 	$(MAKE) -f CMakeFiles/Gray.dir/build.make CMakeFiles/Gray.dir/depend
 	$(MAKE) -f CMakeFiles/Gray.dir/build.make CMakeFiles/Gray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target Gray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gianluca/CLionProjects/APAProjects/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target Gray"
 .PHONY : CMakeFiles/Gray.dir/all
 
 # Build rule for subdir invocation for target.

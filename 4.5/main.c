@@ -138,7 +138,7 @@ void ricercaBin(voce *vet[], int nvoci, char* string)
 {
     int trovato = 0;
     int l=0, r=nvoci-1, m;
-    int i, j;
+    int i=0, j=0;
     while(l<=r && !trovato)
     {
         m = (l+r)/2;

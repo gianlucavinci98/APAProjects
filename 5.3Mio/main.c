@@ -1,12 +1,11 @@
 //
-// Created by gianluca on 26/11/19.
+// Created by gianluca on 24/11/19.
 //
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
 
 #define STR 20
-#define MAX 20
 #define NMENU 9
 
 typedef enum {VUOTA, DATA, CODICE, PARTENZA, ARRIVO} key;
@@ -23,7 +22,7 @@ typedef struct
 } voce;
 typedef struct
 {
-    voce *ordC[MAX], *ordD[MAX], *ordP[MAX], *ordA[MAX];
+    voce **ordC, **ordD, **ordP, **ordA;
 } vetOrd; //struct wrapper che contiene tutti i vettori ordinamento
 
 int confrontaData(date d1, time o1, date d2, time o2) {
@@ -64,30 +63,45 @@ void insertionSort(voce *vet[], int nvoci, key k) {
         vet[j + 1] = x;
     }
 }
-int leggiLog(voce log[], vetOrd *vet, char *file)
+int leggiLog(voce **log, vetOrd *vet, char *file)
 {
+    char codT[STR], partT[STR], destT[STR], dataT[STR], oraPT[STR], oraAT[STR];
     FILE *fp;
     fp = fopen(file, "r");
     int nvoci;
     fscanf(fp,"%d", &nvoci);
+    voce *logT = malloc(nvoci* sizeof(voce));
     for (int i = 0; i < nvoci; i++) {
-        fscanf(fp, "%s %s %s %s %s %s %d", log[i].cod, log[i].part, log[i].dest,log[i].dataStr, log[i].oraPStr, log[i].oraAStr, &log[i].ritardo);
-        sscanf(log[i].dataStr,"%d/%d/%d", &log[i].data.a, &log[i].data.m, &log[i].data.g);
-        sscanf(log[i].oraPStr, "%d:%d:%d",&log[i].oraP.h, &log[i].oraP.m, &log[i].oraP.s);
-        sscanf(log[i].oraAStr, "%d:%d:%d",&log[i].oraA.h, &log[i].oraA.m, &log[i].oraA.s);
+        fscanf(fp, "%s %s %s %s %s %s %d", codT,partT,destT,dataT,oraPT, oraAT, &logT[i].ritardo);
+        logT[i].cod=strdup(codT);
+        logT[i].part=strdup(partT);
+        logT[i].dest=strdup(destT);
+        logT[i].dataStr=strdup(dataT);
+        logT[i].oraPStr=strdup(oraPT);
+        logT[i].oraAStr=strdup(oraAT);
+        sscanf(logT[i].dataStr,"%d/%d/%d", &logT[i].data.a, &logT[i].data.m, &logT[i].data.g);
+        sscanf(logT[i].oraPStr, "%d:%d:%d",&logT[i].oraP.h, &logT[i].oraP.m, &logT[i].oraP.s);
+        sscanf(logT[i].oraAStr, "%d:%d:%d",&logT[i].oraA.h, &logT[i].oraA.m, &logT[i].oraA.s);
     }
 
+    vet->ordP=malloc(nvoci* sizeof(voce*));
+    vet->ordA=malloc(nvoci* sizeof(voce*));
+    vet->ordD=malloc(nvoci* sizeof(voce*));
+    vet->ordC=malloc(nvoci* sizeof(voce*));
+
     for (int i = 0; i < nvoci; i++) {
-        (*vet).ordP[i]=&log[i];
-        (*vet).ordA[i]=&log[i];
-        (*vet).ordD[i]=&log[i];
-        (*vet).ordC[i]=&log[i];
+        vet->ordP[i]=&logT[i];
+        (*vet).ordA[i]=&logT[i];
+        (*vet).ordD[i]=&logT[i];
+        (*vet).ordC[i]=&logT[i];
     }
-    insertionSort((*vet).ordP, nvoci, PARTENZA);
+
+    insertionSort(vet->ordP, nvoci, PARTENZA);
     insertionSort((*vet).ordA, nvoci, ARRIVO);
     insertionSort((*vet).ordD, nvoci, DATA);
     insertionSort((*vet).ordC, nvoci, CODICE);
 
+    *log=logT;
     return nvoci;
 }
 void stampaVoce(voce v, FILE *fp)
@@ -108,11 +122,11 @@ void stampaMenu(char **menu)
     }
     printf("Scelta: ");
 }
-void ricercaBin(voce *vet[], int nvoci, char* string)
+void ricercaBin(voce **vet, int nvoci, char* string)
 {
     int trovato = 0;
     int l=0, r=nvoci-1, m;
-    int i, j;
+    int i=0, j=0;
     while(l<=r && !trovato)
     {
         m = (l+r)/2;
@@ -135,7 +149,7 @@ void ricercaBin(voce *vet[], int nvoci, char* string)
             stampaVoce(*vet[i], stdout);
             i++;
         }
-        while(strncmp(vet[j]->part,string, strlen(string))==0 && j>=0)
+        while(j>=0 && strncmp(vet[j]->part,string, strlen(string))==0)
         {
             stampaVoce(*vet[j], stdout);
             j--;
@@ -143,34 +157,26 @@ void ricercaBin(voce *vet[], int nvoci, char* string)
     }
     else printf("Valore non trovato\n");
 }
-void libera(voce *log, vetOrd *vet, int nvoci) {
-    int i;
-    if (vet == NULL) return;
-    if (vet->ordA) free(vet->ordA);
-    if (vet->ordC) free(vet->ordC);
-    if (vet->ordD) free(vet->ordD);
-    if (vet->ordP) free(vet->ordP);
-
-    if (log)
-    {
-        for(i=0;i<nvoci;i++)
-        {
-            if (log[i].cod) free(log[i].cod);
-            if (log[i].part) free(log[i].part);
-            if (log[i].dest) free(log[i].dest);
-            if (log[i].dataStr) free(log[i].dataStr);
-            if (log[i].oraPStr) free(log[i].oraPStr);
-            if (log[i].oraAStr) free(log[i].oraAStr);
-        }
-        free(log);
+void libera(voce *log, vetOrd vet, int nvoci)
+{
+    for (int i = 0; i < nvoci; i++) {
+        free(log[i].oraAStr);
+        free(log[i].oraPStr);
+        free(log[i].dataStr);
+        free(log[i].dest);
+        free(log[i].part);
+        free(log[i].cod);
     }
-    free(vet);
+    free(log);
+    free(vet.ordP);
+    free(vet.ordC);
+    free(vet.ordD);
+    free(vet.ordA);
 }
 
 int main()
 {
-    //voce log[MAX];
-    voce log = calloc(tab->n_voci, sizeof(voce_t));
+    voce *log;
     vetOrd vet;
     int nvoci, scelta;
     char file[STR];
@@ -182,16 +188,15 @@ int main()
             "Ordina per stazione di partenza",
             "Ordina per stazione di arrivo",
             "Ricerca per stazione di partenza",
-            "Leggi File"
+            "Leggi file",
             "Esci"
     };
 
-    nvoci = leggiLog(log, &vet, "log.txt");
+    nvoci = leggiLog(&log, &vet, "log.txt");
 
     do
     {
         stampaMenu(menu);
-        //printf("Scelta: ");
         scanf("%d", &scelta);
         switch (scelta)
         {
@@ -209,26 +214,24 @@ int main()
                 stampaLog(vet.ordD, nvoci, stdout);
                 break;
             case 3:
-                //k=insertionSort(log,nvoci, CODICE);
                 stampaLog(vet.ordC, nvoci, stdout);
                 break;
             case 4:
-                //k=insertionSort(log,nvoci, PARTENZA);
                 stampaLog(vet.ordP, nvoci, stdout);
                 break;
             case 5:
-                //k=insertionSort(log,nvoci, ARRIVO);
                 stampaLog(vet.ordA, nvoci, stdout);
                 break;
             case 6:
                 printf("Inserisci stazione: ");
                 char staz[STR];
                 scanf("%s", staz);
-                //if(k==PARTENZA) ricercaBin(log, nvoci, staz);
                 ricercaBin(vet.ordP, nvoci, staz);
-                //else ricercaLin(log, nvoci, staz);
                 break;
             case 7:
+                printf("Inserisci nome file: ");
+                scanf("%s",file);
+                leggiLog(&log, &vet, file);
                 break;
             case 8:
                 break;
@@ -238,5 +241,8 @@ int main()
         }
     }while (scelta!=8);
 
+    libera(log, vet, nvoci);
+
     return 0;
 }
+

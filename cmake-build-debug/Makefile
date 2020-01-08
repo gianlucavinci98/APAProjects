@@ -111,56 +111,95 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 6.2
+# Target rules for targets named 7.1
 
 # Build rule for target.
-6.2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 6.2
-.PHONY : 6.2
+7.1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 7.1
+.PHONY : 7.1
 
 # fast build rule for target.
-6.2/fast:
-	$(MAKE) -f CMakeFiles/6.2.dir/build.make CMakeFiles/6.2.dir/build
-.PHONY : 6.2/fast
+7.1/fast:
+	$(MAKE) -f CMakeFiles/7.1.dir/build.make CMakeFiles/7.1.dir/build
+.PHONY : 7.1/fast
 
 #=============================================================================
-# Target rules for targets named 5.3
+# Target rules for targets named Sudoku
 
 # Build rule for target.
-5.3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 5.3
-.PHONY : 5.3
+Sudoku: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Sudoku
+.PHONY : Sudoku
 
 # fast build rule for target.
-5.3/fast:
-	$(MAKE) -f CMakeFiles/5.3.dir/build.make CMakeFiles/5.3.dir/build
-.PHONY : 5.3/fast
+Sudoku/fast:
+	$(MAKE) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/build
+.PHONY : Sudoku/fast
 
 #=============================================================================
-# Target rules for targets named 5.3Aggiustare
+# Target rules for targets named ListaDiStringhe
 
 # Build rule for target.
-5.3Aggiustare: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 5.3Aggiustare
-.PHONY : 5.3Aggiustare
+ListaDiStringhe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ListaDiStringhe
+.PHONY : ListaDiStringhe
 
 # fast build rule for target.
-5.3Aggiustare/fast:
-	$(MAKE) -f CMakeFiles/5.3Aggiustare.dir/build.make CMakeFiles/5.3Aggiustare.dir/build
-.PHONY : 5.3Aggiustare/fast
+ListaDiStringhe/fast:
+	$(MAKE) -f CMakeFiles/ListaDiStringhe.dir/build.make CMakeFiles/ListaDiStringhe.dir/build
+.PHONY : ListaDiStringhe/fast
 
 #=============================================================================
-# Target rules for targets named 5.1
+# Target rules for targets named AritmeticaVerticale
 
 # Build rule for target.
-5.1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 5.1
-.PHONY : 5.1
+AritmeticaVerticale: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AritmeticaVerticale
+.PHONY : AritmeticaVerticale
 
 # fast build rule for target.
-5.1/fast:
-	$(MAKE) -f CMakeFiles/5.1.dir/build.make CMakeFiles/5.1.dir/build
-.PHONY : 5.1/fast
+AritmeticaVerticale/fast:
+	$(MAKE) -f CMakeFiles/AritmeticaVerticale.dir/build.make CMakeFiles/AritmeticaVerticale.dir/build
+.PHONY : AritmeticaVerticale/fast
+
+#=============================================================================
+# Target rules for targets named 6.2Mio
+
+# Build rule for target.
+6.2Mio: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 6.2Mio
+.PHONY : 6.2Mio
+
+# fast build rule for target.
+6.2Mio/fast:
+	$(MAKE) -f CMakeFiles/6.2Mio.dir/build.make CMakeFiles/6.2Mio.dir/build
+.PHONY : 6.2Mio/fast
+
+#=============================================================================
+# Target rules for targets named 5.3Mio
+
+# Build rule for target.
+5.3Mio: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 5.3Mio
+.PHONY : 5.3Mio
+
+# fast build rule for target.
+5.3Mio/fast:
+	$(MAKE) -f CMakeFiles/5.3Mio.dir/build.make CMakeFiles/5.3Mio.dir/build
+.PHONY : 5.3Mio/fast
+
+#=============================================================================
+# Target rules for targets named Triangolo_Somme
+
+# Build rule for target.
+Triangolo_Somme: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Triangolo_Somme
+.PHONY : Triangolo_Somme
+
+# fast build rule for target.
+Triangolo_Somme/fast:
+	$(MAKE) -f CMakeFiles/Triangolo_Somme.dir/build.make CMakeFiles/Triangolo_Somme.dir/build
+.PHONY : Triangolo_Somme/fast
 
 #=============================================================================
 # Target rules for targets named 4.3
@@ -174,6 +213,19 @@ depend:
 4.3/fast:
 	$(MAKE) -f CMakeFiles/4.3.dir/build.make CMakeFiles/4.3.dir/build
 .PHONY : 4.3/fast
+
+#=============================================================================
+# Target rules for targets named NumeriBinari
+
+# Build rule for target.
+NumeriBinari: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 NumeriBinari
+.PHONY : NumeriBinari
+
+# fast build rule for target.
+NumeriBinari/fast:
+	$(MAKE) -f CMakeFiles/NumeriBinari.dir/build.make CMakeFiles/NumeriBinari.dir/build
+.PHONY : NumeriBinari/fast
 
 #=============================================================================
 # Target rules for targets named 4.5
@@ -228,6 +280,19 @@ depend:
 .PHONY : 1.1/fast
 
 #=============================================================================
+# Target rules for targets named EquilibrioFrecce
+
+# Build rule for target.
+EquilibrioFrecce: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 EquilibrioFrecce
+.PHONY : EquilibrioFrecce
+
+# fast build rule for target.
+EquilibrioFrecce/fast:
+	$(MAKE) -f CMakeFiles/EquilibrioFrecce.dir/build.make CMakeFiles/EquilibrioFrecce.dir/build
+.PHONY : EquilibrioFrecce/fast
+
+#=============================================================================
 # Target rules for targets named 0.2
 
 # Build rule for target.
@@ -252,6 +317,19 @@ depend:
 0.1/fast:
 	$(MAKE) -f CMakeFiles/0.1.dir/build.make CMakeFiles/0.1.dir/build
 .PHONY : 0.1/fast
+
+#=============================================================================
+# Target rules for targets named 5.1Mio
+
+# Build rule for target.
+5.1Mio: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 5.1Mio
+.PHONY : 5.1Mio
+
+# fast build rule for target.
+5.1Mio/fast:
+	$(MAKE) -f CMakeFiles/5.1Mio.dir/build.make CMakeFiles/5.1Mio.dir/build
+.PHONY : 5.1Mio/fast
 
 #=============================================================================
 # Target rules for targets named 4.4
@@ -280,19 +358,6 @@ depend:
 .PHONY : 2.1/fast
 
 #=============================================================================
-# Target rules for targets named 5.2
-
-# Build rule for target.
-5.2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 5.2
-.PHONY : 5.2
-
-# fast build rule for target.
-5.2/fast:
-	$(MAKE) -f CMakeFiles/5.2.dir/build.make CMakeFiles/5.2.dir/build
-.PHONY : 5.2/fast
-
-#=============================================================================
 # Target rules for targets named 0.4
 
 # Build rule for target.
@@ -317,6 +382,19 @@ depend:
 0.0_Prove/fast:
 	$(MAKE) -f CMakeFiles/0.0_Prove.dir/build.make CMakeFiles/0.0_Prove.dir/build
 .PHONY : 0.0_Prove/fast
+
+#=============================================================================
+# Target rules for targets named 6.1Mio
+
+# Build rule for target.
+6.1Mio: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 6.1Mio
+.PHONY : 6.1Mio
+
+# fast build rule for target.
+6.1Mio/fast:
+	$(MAKE) -f CMakeFiles/6.1Mio.dir/build.make CMakeFiles/6.1Mio.dir/build
+.PHONY : 6.1Mio/fast
 
 #=============================================================================
 # Target rules for targets named 1.2
@@ -384,6 +462,19 @@ CamminiLabirinto/fast:
 .PHONY : 2.3/fast
 
 #=============================================================================
+# Target rules for targets named 5.2Mio
+
+# Build rule for target.
+5.2Mio: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 5.2Mio
+.PHONY : 5.2Mio
+
+# fast build rule for target.
+5.2Mio/fast:
+	$(MAKE) -f CMakeFiles/5.2Mio.dir/build.make CMakeFiles/5.2Mio.dir/build
+.PHONY : 5.2Mio/fast
+
+#=============================================================================
 # Target rules for targets named 3.1
 
 # Build rule for target.
@@ -421,19 +512,6 @@ CamminiLabirinto/fast:
 2.2/fast:
 	$(MAKE) -f CMakeFiles/2.2.dir/build.make CMakeFiles/2.2.dir/build
 .PHONY : 2.2/fast
-
-#=============================================================================
-# Target rules for targets named 6.1
-
-# Build rule for target.
-6.1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 6.1
-.PHONY : 6.1
-
-# fast build rule for target.
-6.1/fast:
-	$(MAKE) -f CMakeFiles/6.1.dir/build.make CMakeFiles/6.1.dir/build
-.PHONY : 6.1/fast
 
 #=============================================================================
 # Target rules for targets named ProveSorting
@@ -947,167 +1025,194 @@ Gray/fast:
 	$(MAKE) -f CMakeFiles/4.5.dir/build.make CMakeFiles/4.5.dir/4.5/main.c.s
 .PHONY : 4.5/main.c.s
 
-5.1/main.o: 5.1/main.c.o
+5.1Mio/main.o: 5.1Mio/main.c.o
 
-.PHONY : 5.1/main.o
-
-# target to build an object file
-5.1/main.c.o:
-	$(MAKE) -f CMakeFiles/5.1.dir/build.make CMakeFiles/5.1.dir/5.1/main.c.o
-.PHONY : 5.1/main.c.o
-
-5.1/main.i: 5.1/main.c.i
-
-.PHONY : 5.1/main.i
-
-# target to preprocess a source file
-5.1/main.c.i:
-	$(MAKE) -f CMakeFiles/5.1.dir/build.make CMakeFiles/5.1.dir/5.1/main.c.i
-.PHONY : 5.1/main.c.i
-
-5.1/main.s: 5.1/main.c.s
-
-.PHONY : 5.1/main.s
-
-# target to generate assembly for a file
-5.1/main.c.s:
-	$(MAKE) -f CMakeFiles/5.1.dir/build.make CMakeFiles/5.1.dir/5.1/main.c.s
-.PHONY : 5.1/main.c.s
-
-5.2/main.o: 5.2/main.c.o
-
-.PHONY : 5.2/main.o
+.PHONY : 5.1Mio/main.o
 
 # target to build an object file
-5.2/main.c.o:
-	$(MAKE) -f CMakeFiles/5.2.dir/build.make CMakeFiles/5.2.dir/5.2/main.c.o
-.PHONY : 5.2/main.c.o
+5.1Mio/main.c.o:
+	$(MAKE) -f CMakeFiles/5.1Mio.dir/build.make CMakeFiles/5.1Mio.dir/5.1Mio/main.c.o
+.PHONY : 5.1Mio/main.c.o
 
-5.2/main.i: 5.2/main.c.i
+5.1Mio/main.i: 5.1Mio/main.c.i
 
-.PHONY : 5.2/main.i
+.PHONY : 5.1Mio/main.i
 
 # target to preprocess a source file
-5.2/main.c.i:
-	$(MAKE) -f CMakeFiles/5.2.dir/build.make CMakeFiles/5.2.dir/5.2/main.c.i
-.PHONY : 5.2/main.c.i
+5.1Mio/main.c.i:
+	$(MAKE) -f CMakeFiles/5.1Mio.dir/build.make CMakeFiles/5.1Mio.dir/5.1Mio/main.c.i
+.PHONY : 5.1Mio/main.c.i
 
-5.2/main.s: 5.2/main.c.s
+5.1Mio/main.s: 5.1Mio/main.c.s
 
-.PHONY : 5.2/main.s
+.PHONY : 5.1Mio/main.s
 
 # target to generate assembly for a file
-5.2/main.c.s:
-	$(MAKE) -f CMakeFiles/5.2.dir/build.make CMakeFiles/5.2.dir/5.2/main.c.s
-.PHONY : 5.2/main.c.s
+5.1Mio/main.c.s:
+	$(MAKE) -f CMakeFiles/5.1Mio.dir/build.make CMakeFiles/5.1Mio.dir/5.1Mio/main.c.s
+.PHONY : 5.1Mio/main.c.s
 
-5.3/main.o: 5.3/main.c.o
+5.2Mio/main.o: 5.2Mio/main.c.o
 
-.PHONY : 5.3/main.o
+.PHONY : 5.2Mio/main.o
 
 # target to build an object file
-5.3/main.c.o:
-	$(MAKE) -f CMakeFiles/5.3.dir/build.make CMakeFiles/5.3.dir/5.3/main.c.o
-.PHONY : 5.3/main.c.o
+5.2Mio/main.c.o:
+	$(MAKE) -f CMakeFiles/5.2Mio.dir/build.make CMakeFiles/5.2Mio.dir/5.2Mio/main.c.o
+.PHONY : 5.2Mio/main.c.o
 
-5.3/main.i: 5.3/main.c.i
+5.2Mio/main.i: 5.2Mio/main.c.i
 
-.PHONY : 5.3/main.i
+.PHONY : 5.2Mio/main.i
 
 # target to preprocess a source file
-5.3/main.c.i:
-	$(MAKE) -f CMakeFiles/5.3.dir/build.make CMakeFiles/5.3.dir/5.3/main.c.i
-.PHONY : 5.3/main.c.i
+5.2Mio/main.c.i:
+	$(MAKE) -f CMakeFiles/5.2Mio.dir/build.make CMakeFiles/5.2Mio.dir/5.2Mio/main.c.i
+.PHONY : 5.2Mio/main.c.i
 
-5.3/main.s: 5.3/main.c.s
+5.2Mio/main.s: 5.2Mio/main.c.s
 
-.PHONY : 5.3/main.s
+.PHONY : 5.2Mio/main.s
 
 # target to generate assembly for a file
-5.3/main.c.s:
-	$(MAKE) -f CMakeFiles/5.3.dir/build.make CMakeFiles/5.3.dir/5.3/main.c.s
-.PHONY : 5.3/main.c.s
+5.2Mio/main.c.s:
+	$(MAKE) -f CMakeFiles/5.2Mio.dir/build.make CMakeFiles/5.2Mio.dir/5.2Mio/main.c.s
+.PHONY : 5.2Mio/main.c.s
 
-5.3Aggiustare/main.o: 5.3Aggiustare/main.c.o
+5.3Mio/main.o: 5.3Mio/main.c.o
 
-.PHONY : 5.3Aggiustare/main.o
+.PHONY : 5.3Mio/main.o
 
 # target to build an object file
-5.3Aggiustare/main.c.o:
-	$(MAKE) -f CMakeFiles/5.3Aggiustare.dir/build.make CMakeFiles/5.3Aggiustare.dir/5.3Aggiustare/main.c.o
-.PHONY : 5.3Aggiustare/main.c.o
+5.3Mio/main.c.o:
+	$(MAKE) -f CMakeFiles/5.3Mio.dir/build.make CMakeFiles/5.3Mio.dir/5.3Mio/main.c.o
+.PHONY : 5.3Mio/main.c.o
 
-5.3Aggiustare/main.i: 5.3Aggiustare/main.c.i
+5.3Mio/main.i: 5.3Mio/main.c.i
 
-.PHONY : 5.3Aggiustare/main.i
+.PHONY : 5.3Mio/main.i
 
 # target to preprocess a source file
-5.3Aggiustare/main.c.i:
-	$(MAKE) -f CMakeFiles/5.3Aggiustare.dir/build.make CMakeFiles/5.3Aggiustare.dir/5.3Aggiustare/main.c.i
-.PHONY : 5.3Aggiustare/main.c.i
+5.3Mio/main.c.i:
+	$(MAKE) -f CMakeFiles/5.3Mio.dir/build.make CMakeFiles/5.3Mio.dir/5.3Mio/main.c.i
+.PHONY : 5.3Mio/main.c.i
 
-5.3Aggiustare/main.s: 5.3Aggiustare/main.c.s
+5.3Mio/main.s: 5.3Mio/main.c.s
 
-.PHONY : 5.3Aggiustare/main.s
+.PHONY : 5.3Mio/main.s
 
 # target to generate assembly for a file
-5.3Aggiustare/main.c.s:
-	$(MAKE) -f CMakeFiles/5.3Aggiustare.dir/build.make CMakeFiles/5.3Aggiustare.dir/5.3Aggiustare/main.c.s
-.PHONY : 5.3Aggiustare/main.c.s
+5.3Mio/main.c.s:
+	$(MAKE) -f CMakeFiles/5.3Mio.dir/build.make CMakeFiles/5.3Mio.dir/5.3Mio/main.c.s
+.PHONY : 5.3Mio/main.c.s
 
-6.1/main.o: 6.1/main.c.o
+6.1Mio/main.o: 6.1Mio/main.c.o
 
-.PHONY : 6.1/main.o
+.PHONY : 6.1Mio/main.o
 
 # target to build an object file
-6.1/main.c.o:
-	$(MAKE) -f CMakeFiles/6.1.dir/build.make CMakeFiles/6.1.dir/6.1/main.c.o
-.PHONY : 6.1/main.c.o
+6.1Mio/main.c.o:
+	$(MAKE) -f CMakeFiles/6.1Mio.dir/build.make CMakeFiles/6.1Mio.dir/6.1Mio/main.c.o
+.PHONY : 6.1Mio/main.c.o
 
-6.1/main.i: 6.1/main.c.i
+6.1Mio/main.i: 6.1Mio/main.c.i
 
-.PHONY : 6.1/main.i
+.PHONY : 6.1Mio/main.i
 
 # target to preprocess a source file
-6.1/main.c.i:
-	$(MAKE) -f CMakeFiles/6.1.dir/build.make CMakeFiles/6.1.dir/6.1/main.c.i
-.PHONY : 6.1/main.c.i
+6.1Mio/main.c.i:
+	$(MAKE) -f CMakeFiles/6.1Mio.dir/build.make CMakeFiles/6.1Mio.dir/6.1Mio/main.c.i
+.PHONY : 6.1Mio/main.c.i
 
-6.1/main.s: 6.1/main.c.s
+6.1Mio/main.s: 6.1Mio/main.c.s
 
-.PHONY : 6.1/main.s
+.PHONY : 6.1Mio/main.s
 
 # target to generate assembly for a file
-6.1/main.c.s:
-	$(MAKE) -f CMakeFiles/6.1.dir/build.make CMakeFiles/6.1.dir/6.1/main.c.s
-.PHONY : 6.1/main.c.s
+6.1Mio/main.c.s:
+	$(MAKE) -f CMakeFiles/6.1Mio.dir/build.make CMakeFiles/6.1Mio.dir/6.1Mio/main.c.s
+.PHONY : 6.1Mio/main.c.s
 
-6.2/main.o: 6.2/main.c.o
+6.2Mio/main.o: 6.2Mio/main.c.o
 
-.PHONY : 6.2/main.o
+.PHONY : 6.2Mio/main.o
 
 # target to build an object file
-6.2/main.c.o:
-	$(MAKE) -f CMakeFiles/6.2.dir/build.make CMakeFiles/6.2.dir/6.2/main.c.o
-.PHONY : 6.2/main.c.o
+6.2Mio/main.c.o:
+	$(MAKE) -f CMakeFiles/6.2Mio.dir/build.make CMakeFiles/6.2Mio.dir/6.2Mio/main.c.o
+.PHONY : 6.2Mio/main.c.o
 
-6.2/main.i: 6.2/main.c.i
+6.2Mio/main.i: 6.2Mio/main.c.i
 
-.PHONY : 6.2/main.i
+.PHONY : 6.2Mio/main.i
 
 # target to preprocess a source file
-6.2/main.c.i:
-	$(MAKE) -f CMakeFiles/6.2.dir/build.make CMakeFiles/6.2.dir/6.2/main.c.i
-.PHONY : 6.2/main.c.i
+6.2Mio/main.c.i:
+	$(MAKE) -f CMakeFiles/6.2Mio.dir/build.make CMakeFiles/6.2Mio.dir/6.2Mio/main.c.i
+.PHONY : 6.2Mio/main.c.i
 
-6.2/main.s: 6.2/main.c.s
+6.2Mio/main.s: 6.2Mio/main.c.s
 
-.PHONY : 6.2/main.s
+.PHONY : 6.2Mio/main.s
 
 # target to generate assembly for a file
-6.2/main.c.s:
-	$(MAKE) -f CMakeFiles/6.2.dir/build.make CMakeFiles/6.2.dir/6.2/main.c.s
-.PHONY : 6.2/main.c.s
+6.2Mio/main.c.s:
+	$(MAKE) -f CMakeFiles/6.2Mio.dir/build.make CMakeFiles/6.2Mio.dir/6.2Mio/main.c.s
+.PHONY : 6.2Mio/main.c.s
+
+7.1/main.o: 7.1/main.c.o
+
+.PHONY : 7.1/main.o
+
+# target to build an object file
+7.1/main.c.o:
+	$(MAKE) -f CMakeFiles/7.1.dir/build.make CMakeFiles/7.1.dir/7.1/main.c.o
+.PHONY : 7.1/main.c.o
+
+7.1/main.i: 7.1/main.c.i
+
+.PHONY : 7.1/main.i
+
+# target to preprocess a source file
+7.1/main.c.i:
+	$(MAKE) -f CMakeFiles/7.1.dir/build.make CMakeFiles/7.1.dir/7.1/main.c.i
+.PHONY : 7.1/main.c.i
+
+7.1/main.s: 7.1/main.c.s
+
+.PHONY : 7.1/main.s
+
+# target to generate assembly for a file
+7.1/main.c.s:
+	$(MAKE) -f CMakeFiles/7.1.dir/build.make CMakeFiles/7.1.dir/7.1/main.c.s
+.PHONY : 7.1/main.c.s
+
+AritmeticaVerticale/main.o: AritmeticaVerticale/main.c.o
+
+.PHONY : AritmeticaVerticale/main.o
+
+# target to build an object file
+AritmeticaVerticale/main.c.o:
+	$(MAKE) -f CMakeFiles/AritmeticaVerticale.dir/build.make CMakeFiles/AritmeticaVerticale.dir/AritmeticaVerticale/main.c.o
+.PHONY : AritmeticaVerticale/main.c.o
+
+AritmeticaVerticale/main.i: AritmeticaVerticale/main.c.i
+
+.PHONY : AritmeticaVerticale/main.i
+
+# target to preprocess a source file
+AritmeticaVerticale/main.c.i:
+	$(MAKE) -f CMakeFiles/AritmeticaVerticale.dir/build.make CMakeFiles/AritmeticaVerticale.dir/AritmeticaVerticale/main.c.i
+.PHONY : AritmeticaVerticale/main.c.i
+
+AritmeticaVerticale/main.s: AritmeticaVerticale/main.c.s
+
+.PHONY : AritmeticaVerticale/main.s
+
+# target to generate assembly for a file
+AritmeticaVerticale/main.c.s:
+	$(MAKE) -f CMakeFiles/AritmeticaVerticale.dir/build.make CMakeFiles/AritmeticaVerticale.dir/AritmeticaVerticale/main.c.s
+.PHONY : AritmeticaVerticale/main.c.s
 
 CamminiLabirinto/main.o: CamminiLabirinto/main.c.o
 
@@ -1136,6 +1241,33 @@ CamminiLabirinto/main.c.s:
 	$(MAKE) -f CMakeFiles/CamminiLabirinto.dir/build.make CMakeFiles/CamminiLabirinto.dir/CamminiLabirinto/main.c.s
 .PHONY : CamminiLabirinto/main.c.s
 
+EquilibrioFrecce/main.o: EquilibrioFrecce/main.c.o
+
+.PHONY : EquilibrioFrecce/main.o
+
+# target to build an object file
+EquilibrioFrecce/main.c.o:
+	$(MAKE) -f CMakeFiles/EquilibrioFrecce.dir/build.make CMakeFiles/EquilibrioFrecce.dir/EquilibrioFrecce/main.c.o
+.PHONY : EquilibrioFrecce/main.c.o
+
+EquilibrioFrecce/main.i: EquilibrioFrecce/main.c.i
+
+.PHONY : EquilibrioFrecce/main.i
+
+# target to preprocess a source file
+EquilibrioFrecce/main.c.i:
+	$(MAKE) -f CMakeFiles/EquilibrioFrecce.dir/build.make CMakeFiles/EquilibrioFrecce.dir/EquilibrioFrecce/main.c.i
+.PHONY : EquilibrioFrecce/main.c.i
+
+EquilibrioFrecce/main.s: EquilibrioFrecce/main.c.s
+
+.PHONY : EquilibrioFrecce/main.s
+
+# target to generate assembly for a file
+EquilibrioFrecce/main.c.s:
+	$(MAKE) -f CMakeFiles/EquilibrioFrecce.dir/build.make CMakeFiles/EquilibrioFrecce.dir/EquilibrioFrecce/main.c.s
+.PHONY : EquilibrioFrecce/main.c.s
+
 Gray/main.o: Gray/main.c.o
 
 .PHONY : Gray/main.o
@@ -1162,6 +1294,60 @@ Gray/main.s: Gray/main.c.s
 Gray/main.c.s:
 	$(MAKE) -f CMakeFiles/Gray.dir/build.make CMakeFiles/Gray.dir/Gray/main.c.s
 .PHONY : Gray/main.c.s
+
+ListaDiStringhe/main.o: ListaDiStringhe/main.c.o
+
+.PHONY : ListaDiStringhe/main.o
+
+# target to build an object file
+ListaDiStringhe/main.c.o:
+	$(MAKE) -f CMakeFiles/ListaDiStringhe.dir/build.make CMakeFiles/ListaDiStringhe.dir/ListaDiStringhe/main.c.o
+.PHONY : ListaDiStringhe/main.c.o
+
+ListaDiStringhe/main.i: ListaDiStringhe/main.c.i
+
+.PHONY : ListaDiStringhe/main.i
+
+# target to preprocess a source file
+ListaDiStringhe/main.c.i:
+	$(MAKE) -f CMakeFiles/ListaDiStringhe.dir/build.make CMakeFiles/ListaDiStringhe.dir/ListaDiStringhe/main.c.i
+.PHONY : ListaDiStringhe/main.c.i
+
+ListaDiStringhe/main.s: ListaDiStringhe/main.c.s
+
+.PHONY : ListaDiStringhe/main.s
+
+# target to generate assembly for a file
+ListaDiStringhe/main.c.s:
+	$(MAKE) -f CMakeFiles/ListaDiStringhe.dir/build.make CMakeFiles/ListaDiStringhe.dir/ListaDiStringhe/main.c.s
+.PHONY : ListaDiStringhe/main.c.s
+
+NumeriBinari/main.o: NumeriBinari/main.c.o
+
+.PHONY : NumeriBinari/main.o
+
+# target to build an object file
+NumeriBinari/main.c.o:
+	$(MAKE) -f CMakeFiles/NumeriBinari.dir/build.make CMakeFiles/NumeriBinari.dir/NumeriBinari/main.c.o
+.PHONY : NumeriBinari/main.c.o
+
+NumeriBinari/main.i: NumeriBinari/main.c.i
+
+.PHONY : NumeriBinari/main.i
+
+# target to preprocess a source file
+NumeriBinari/main.c.i:
+	$(MAKE) -f CMakeFiles/NumeriBinari.dir/build.make CMakeFiles/NumeriBinari.dir/NumeriBinari/main.c.i
+.PHONY : NumeriBinari/main.c.i
+
+NumeriBinari/main.s: NumeriBinari/main.c.s
+
+.PHONY : NumeriBinari/main.s
+
+# target to generate assembly for a file
+NumeriBinari/main.c.s:
+	$(MAKE) -f CMakeFiles/NumeriBinari.dir/build.make CMakeFiles/NumeriBinari.dir/NumeriBinari/main.c.s
+.PHONY : NumeriBinari/main.c.s
 
 ProveSorting/main.o: ProveSorting/main.c.o
 
@@ -1190,6 +1376,60 @@ ProveSorting/main.c.s:
 	$(MAKE) -f CMakeFiles/ProveSorting.dir/build.make CMakeFiles/ProveSorting.dir/ProveSorting/main.c.s
 .PHONY : ProveSorting/main.c.s
 
+Sudoku/main.o: Sudoku/main.c.o
+
+.PHONY : Sudoku/main.o
+
+# target to build an object file
+Sudoku/main.c.o:
+	$(MAKE) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/Sudoku/main.c.o
+.PHONY : Sudoku/main.c.o
+
+Sudoku/main.i: Sudoku/main.c.i
+
+.PHONY : Sudoku/main.i
+
+# target to preprocess a source file
+Sudoku/main.c.i:
+	$(MAKE) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/Sudoku/main.c.i
+.PHONY : Sudoku/main.c.i
+
+Sudoku/main.s: Sudoku/main.c.s
+
+.PHONY : Sudoku/main.s
+
+# target to generate assembly for a file
+Sudoku/main.c.s:
+	$(MAKE) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/Sudoku/main.c.s
+.PHONY : Sudoku/main.c.s
+
+Triangolo_Somme/main.o: Triangolo_Somme/main.c.o
+
+.PHONY : Triangolo_Somme/main.o
+
+# target to build an object file
+Triangolo_Somme/main.c.o:
+	$(MAKE) -f CMakeFiles/Triangolo_Somme.dir/build.make CMakeFiles/Triangolo_Somme.dir/Triangolo_Somme/main.c.o
+.PHONY : Triangolo_Somme/main.c.o
+
+Triangolo_Somme/main.i: Triangolo_Somme/main.c.i
+
+.PHONY : Triangolo_Somme/main.i
+
+# target to preprocess a source file
+Triangolo_Somme/main.c.i:
+	$(MAKE) -f CMakeFiles/Triangolo_Somme.dir/build.make CMakeFiles/Triangolo_Somme.dir/Triangolo_Somme/main.c.i
+.PHONY : Triangolo_Somme/main.c.i
+
+Triangolo_Somme/main.s: Triangolo_Somme/main.c.s
+
+.PHONY : Triangolo_Somme/main.s
+
+# target to generate assembly for a file
+Triangolo_Somme/main.c.s:
+	$(MAKE) -f CMakeFiles/Triangolo_Somme.dir/build.make CMakeFiles/Triangolo_Somme.dir/Triangolo_Somme/main.c.s
+.PHONY : Triangolo_Somme/main.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1197,32 +1437,38 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... 6.2"
-	@echo "... 5.3"
-	@echo "... 5.3Aggiustare"
-	@echo "... 5.1"
+	@echo "... 7.1"
+	@echo "... Sudoku"
+	@echo "... ListaDiStringhe"
+	@echo "... AritmeticaVerticale"
+	@echo "... 6.2Mio"
+	@echo "... 5.3Mio"
+	@echo "... Triangolo_Somme"
 	@echo "... 4.3"
+	@echo "... NumeriBinari"
 	@echo "... 4.5"
 	@echo "... 4.2"
 	@echo "... 4.1"
 	@echo "... 1.1"
+	@echo "... EquilibrioFrecce"
 	@echo "... 0.2"
 	@echo "... 0.1"
+	@echo "... 5.1Mio"
 	@echo "... 4.4"
 	@echo "... 2.1"
-	@echo "... 5.2"
 	@echo "... 0.4"
 	@echo "... 0.0_Prove"
+	@echo "... 6.1Mio"
 	@echo "... 1.2"
 	@echo "... 1.3"
 	@echo "... CamminiLabirinto"
 	@echo "... 0.3"
 	@echo "... 2.3"
+	@echo "... 5.2Mio"
 	@echo "... 3.1"
 	@echo "... rebuild_cache"
 	@echo "... 3.2"
 	@echo "... 2.2"
-	@echo "... 6.1"
 	@echo "... ProveSorting"
 	@echo "... Gray"
 	@echo "... 0.0_Prove/main.o"
@@ -1279,33 +1525,51 @@ help:
 	@echo "... 4.5/main.o"
 	@echo "... 4.5/main.i"
 	@echo "... 4.5/main.s"
-	@echo "... 5.1/main.o"
-	@echo "... 5.1/main.i"
-	@echo "... 5.1/main.s"
-	@echo "... 5.2/main.o"
-	@echo "... 5.2/main.i"
-	@echo "... 5.2/main.s"
-	@echo "... 5.3/main.o"
-	@echo "... 5.3/main.i"
-	@echo "... 5.3/main.s"
-	@echo "... 5.3Aggiustare/main.o"
-	@echo "... 5.3Aggiustare/main.i"
-	@echo "... 5.3Aggiustare/main.s"
-	@echo "... 6.1/main.o"
-	@echo "... 6.1/main.i"
-	@echo "... 6.1/main.s"
-	@echo "... 6.2/main.o"
-	@echo "... 6.2/main.i"
-	@echo "... 6.2/main.s"
+	@echo "... 5.1Mio/main.o"
+	@echo "... 5.1Mio/main.i"
+	@echo "... 5.1Mio/main.s"
+	@echo "... 5.2Mio/main.o"
+	@echo "... 5.2Mio/main.i"
+	@echo "... 5.2Mio/main.s"
+	@echo "... 5.3Mio/main.o"
+	@echo "... 5.3Mio/main.i"
+	@echo "... 5.3Mio/main.s"
+	@echo "... 6.1Mio/main.o"
+	@echo "... 6.1Mio/main.i"
+	@echo "... 6.1Mio/main.s"
+	@echo "... 6.2Mio/main.o"
+	@echo "... 6.2Mio/main.i"
+	@echo "... 6.2Mio/main.s"
+	@echo "... 7.1/main.o"
+	@echo "... 7.1/main.i"
+	@echo "... 7.1/main.s"
+	@echo "... AritmeticaVerticale/main.o"
+	@echo "... AritmeticaVerticale/main.i"
+	@echo "... AritmeticaVerticale/main.s"
 	@echo "... CamminiLabirinto/main.o"
 	@echo "... CamminiLabirinto/main.i"
 	@echo "... CamminiLabirinto/main.s"
+	@echo "... EquilibrioFrecce/main.o"
+	@echo "... EquilibrioFrecce/main.i"
+	@echo "... EquilibrioFrecce/main.s"
 	@echo "... Gray/main.o"
 	@echo "... Gray/main.i"
 	@echo "... Gray/main.s"
+	@echo "... ListaDiStringhe/main.o"
+	@echo "... ListaDiStringhe/main.i"
+	@echo "... ListaDiStringhe/main.s"
+	@echo "... NumeriBinari/main.o"
+	@echo "... NumeriBinari/main.i"
+	@echo "... NumeriBinari/main.s"
 	@echo "... ProveSorting/main.o"
 	@echo "... ProveSorting/main.i"
 	@echo "... ProveSorting/main.s"
+	@echo "... Sudoku/main.o"
+	@echo "... Sudoku/main.i"
+	@echo "... Sudoku/main.s"
+	@echo "... Triangolo_Somme/main.o"
+	@echo "... Triangolo_Somme/main.i"
+	@echo "... Triangolo_Somme/main.s"
 .PHONY : help
 
 
